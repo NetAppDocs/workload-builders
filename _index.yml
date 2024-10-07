@@ -1,14 +1,32 @@
 indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
+  title: Workload Factory for Builders workloads documentation
+  lead: Create and manage software development projects on top of FSx for ONTAP file system storage in BlueXP Workload Factory.
   tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+    - title: Get started
+      links:
+        - title: Release notes
+          url: /whats-new.html
+        - title: Learn about Builders
+          url: /learn-builders.html
+        - title: Quick start
+          url: /quick-start-builders.html
+    - title: Use Builders
+      links:
+        - title: Create a project
+          url: /create-project.html
+        - title: Monitor a project
+          url: /monitor-projects.html
+    - title: Knowledge and support
+      links:
+        - title: Register for support
+          url: /support-registration-databases.html
+        - title: Get help
+          url: /get-help-databases.html
+#    - title: Blogs & community
+#      links:
+#        - title: NetApp Community
+#          url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+#        - title: Cloud Central blog
+#          url: https://cloud.netapp.com/blog
+#        - title: Cloud webinars
+#          url: https://cloud.netapp.com/events
