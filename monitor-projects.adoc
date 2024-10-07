@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: monitor-databases.html 
+permalink: monitor-projects.html 
 keywords: monitor databases, monitor jobs, track database jobs
 summary: Track database jobs and monitor databases within Workload Factory for Databases.  
 ---

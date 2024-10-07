@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: quick-start-databases.html  
+permalink: quick-start-builders.html  
 keywords: requirements, basic mode, read mode, automate mode 
 summary: Databases has three different modes that have different requirements. 
 ---

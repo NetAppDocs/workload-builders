@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: learn-databases.html
+permalink: learn-builders.html
 keywords: Databases
 summary: Databases is an end-to-end database deployment and maintenance service with built-in best practices for optimization, automatic thin cloning, and monitoring and resolution capabilities. 
 ---

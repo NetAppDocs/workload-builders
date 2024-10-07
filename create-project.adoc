@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: delete-clone.html
+permalink: create-project.html
 keywords: delete, clone 
 summary: Delete a sandbox clone when you no longer need it. 
 ---
