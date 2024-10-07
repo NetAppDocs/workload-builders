@@ -9,7 +9,7 @@ summary: Learn what's new with Workload Factory for Databases.
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with Databases.
+Learn what's new with Builders.
 
 == 01 November 2024
 
