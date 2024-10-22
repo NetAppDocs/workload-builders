@@ -1,4 +1,3 @@
 === Builders Workload initial release  
-You can now explore savings of detected Microsoft SQL servers on Amazon EC2 with FSx for Windows File Server storage in the savings calculator. Depending on your SQL server and storage requirements, you might find that FSx for ONTAP storage is the most cost effective for your database workloads.
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html[Explore savings with FSx for ONTAP for your database workloads^]
+The initial release includes the capability to create a project that contains workspaces and automate actions with Codebox. You can also integrate Builders with Perforce, so that you can manage different revisions of your projects, and switch between them quickly.

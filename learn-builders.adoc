@@ -16,25 +16,32 @@ Workload Factory for Builders enables the rapid creation of software development
 
 For more information about Workload Factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[Workload Factory overview^].
 
-=== Operational modes in Workload Factory
-Three different operational modes - _basic_, _read_ and _automate_ - offer flexible options for deployment inside and outside of Workload Factory. Gain immediate value at zero-trust in _basic_ mode with code snippets for use outside Workload Factory. Get incremental value with incremental trust in _read_ and _automate_ modes. 
-
-Learn more about link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[operational modes in Workload Factory^].
-
 == Workload Factory for Builders features
 Workload Factory for Builders offers the following features:
 
-*
-*
-*
-*
-*
-*
-*
-*
+* Integrate with Perforce
+* Create clones of workspaces
+* Create snapshots of projects
+* Create, edit, and remove projects and workspaces
+* Associate FSx filesystems with each project
+* Create access policies to control who has access to a project
+* Analyze capacity usage of each project
+* Create operation policies to control clone size limits and clone retention
 
-== Project management with Builders
-Information about using projects in Builders goes here.
+== Projects and workspaces in Builders
+When you use Builders, you create a project to represent your build environment and its artifacts. Each project can contain one or more workspaces. Each workspace is a point in time snapshot of the build environment (for example, a different version of the software, or another instance of the same version). You can quickly switch between workspaces if you need to work on a different version, test experimental changes, or update a previous release.
+
+== Benefits of using Builders to create build environments
+Here are some benefits of using Builders to speed up and simplify your organization's creation and management of build environments:
+
+* 
+* 
+* 
+
+== Operational modes in Workload Factory
+Three different operational modes - _basic_, _read_ and _automate_ - offer flexible options for deployment inside and outside of Workload Factory. Gain immediate value at zero-trust in _basic_ mode with code snippets for use outside Workload Factory. Get incremental value with incremental trust in _read_ and _automate_ modes. 
+
+Learn more about link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[operational modes in Workload Factory^].
 
 == Automation with Workload Factory Codebox
 Workload Factory introduces built-in automation with the _Codebox_. The Codebox offers the following automation benefits: 
@@ -42,13 +49,6 @@ Workload Factory introduces built-in automation with the _Codebox_. The Codebox 
 * *Code snippet generation*: Infrastructure-as-Code (IaC) snippets are generated during resource creation, allowing seamless integration with existing orchestration workflows. 
 * *Infrastructure-as-code co-pilot*: the Codebox is an Infrastructure-as-code (IaC) co-pilot that helps developers and DevOps generate code to execute any operation supported by Workload Factory.  
 * *Code viewer and automation catalog*: the Codebox provides a code viewer for quick analysis of automation and an automation catalog for quick future re-use. 
-
-== Benefits of using Builders to create build environments
-Here are some benefits of using Builders to speed up and simplify your organization's creation and management of build environments:
-
-*
-*
-*
 
 == Cost
 There is no cost for using the Builders capability of Workload Factory.
@@ -59,11 +59,10 @@ No special licenses are needed from NetApp to use the Builders capabilities of W
 === Integrated AWS services
 Builders includes the following integrated AWS services: 
 
-* CloudFormation
-* Simple Notification Service 
-* CloudWatch
-* Systems Manager
-* Secrets Manager 
+* 
+* 
+* 
+
 
 === Supported regions
 Databases is supported in all commercial regions where FSx for ONTAP is supported. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/[View supported Amazon regions.^]
