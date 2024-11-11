@@ -4,44 +4,39 @@ permalink: quick-start-builders.html
 keywords: requirements, basic mode, read mode, automate mode 
 summary: Databases has three different modes that have different requirements. 
 ---
-= Quick start for Databases
+
+= Quick start for Builders
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-With Databases, you can get started immediately in _basic_ mode. If you'd like to use Workload Factory to discover hosts, manage resources, and more, you can get started in a few steps. 
+Get started creating a Builders project. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
 
-You must have an AWS account to get started. 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to workload factory
 
-Follow these steps to get started with Workload Factory Databases. 
+You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with workload factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to Workload Factory
-
-[role="quick-margin-para"]
-
-You'll need to link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and link:https://console.workloads.netapp.com[log in^] 
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Add credentials and permissions
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up your environment to meet GenAI requirements
 
 [role="quick-margin-para"]
+You'll need AWS credentials to deploy the AWS infrastructure, a deployed and discovered FSx for ONTAP file system, the list of data sources that you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
 
-Choose between link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[_basic_, _read_, and _automate_ operational modes^]. 
+link:requirements.html[Learn more about GenAI requirements^].
 
-[role="quick-margin-para"]
-If you operate in _basic_ mode, you don't need to go any further. You can start using Workload Factory Databases to copy partially completed code samples. In the Databases tile, click *Deploy database host*. link:create-database-server.html[Learn how to deploy a database server]. 
-
-[role="quick-margin-para"]
-If you operate in _read_ or _automate_ mode, you'll need to link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[add credentials to an account manually^] which includes selecting workload capabilities, such as Databases and AI, and creating the IAM policies to ensure you have the correct permissions for operating in _read_ or _automate_ mode.
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Deploy a database server
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Identify the FSx for ONTAP file system that contains the data sources
 
 [role="quick-margin-para"]
+The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. These systems can be in different VPCs, but they must be accessible within the same network. 
 
-Lastly, if you chose to operate in _automate_ mode, you must link:create-database-server.html[deploy] or link:detect-host.html[detect a database server] to manage your host resources and before adding user databases.
+link:identify-data-sources.html[Learn how to identify data sources^].
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy the knowledge base infrastructure
+
+[role="quick-margin-para"]
+Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store the vector database used by the knowledge base.
+
+link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure^].
 
 .What's next
-When you have FSx for ONTAP managed hosts in your Databases inventory, you can link:create-database.html[create a user database] or link:create-sandbox-clone.html[clone your host to create a sandbox]. 
 
-When you have Elastic Block Store hosts in your Databases inventory, you can link:explore-savings.html[explore savings with the Storage savings calculator]. 
-
-
+You can now build a knowledge base to provide organization-focused responses to end users.

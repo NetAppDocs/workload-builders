@@ -2,19 +2,32 @@
 sidebar: sidebar
 permalink: create-project.html
 keywords: delete, clone 
-summary: Delete a sandbox clone when you no longer need it. 
+summary: You can create a new Builders project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts.
 ---
-= Split a sandbox clone from the source database
+= Create a Builders project
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Delete a sandbox clone when you no longer need it and want to free up storage capacity.  
+You can create a new Builders project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
 
 .Steps
-. Log in to the link:https://console.workloads.netapp.com[Workload Factory console^]. 
-. In the Databases tile, click *Go to Databases Inventory*. 
-. In Databases, select the *Sandboxes* tab.
-. Click the three dots menu of the sandbox clone you want to delete.
-. Select *Delete*. 
-. In the Delete dialog, click *Delete*. 
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. On the Create project page, provide the following:
+.. *Project name*: Enter a name for the project.
+.. *Description*: Enter a description for the project.
+.. *Filesystem*: Provide the following:
+... *Credentials*: Select the Amazon AWS credentials to use. Builders will use these credentials to discover FSx for ONTAP filesystems that you can use with this project and perform data protection tasks.
+... *Region*: Select the region that this FSx for ONTAP filesystem resides in.
+... *FSx for ONTAP filesystem*: Select an FSx for ONTAP filesystem to use with this project. You can only select filesystems that are configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
+... *Choose a volume*: Select a volume on which to store the project. You can only select volumes that have been configured for NFS sharing.
+.. *Operation policies*: Provide limits for project clones:
+... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, workload factory removes the clone.
+... *Maximum number of clones per user or group*: Enter the maximum number of clones that a user or group can store.
+... *Maximum clone size in GiB*: Enter the maximum size in GiB of a project clone.
+.. *Access policies*: Explicitly grant project access to specific users or groups:
+... *Policy enforcement scope*: Enter IP addresses or IP address ranges to limit project access to only those IP addresses or ranges.
+... *User or group identifiers*: Enter user or group identifiers to limit project access to only those users or groups.
+. Select *Create*. 
+
