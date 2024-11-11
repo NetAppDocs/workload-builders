@@ -11,9 +11,9 @@ summary: Learn what's new with Workload Factory for Databases.
 [.lead]
 Learn what's new with Builders.
 
-== 01 November 2024
+== 03 December 2024
 
-include::_whatsnew/2024-11-01.adoc[]
+include::_whatsnew/2024-12-03.adoc[]
 
 
 
