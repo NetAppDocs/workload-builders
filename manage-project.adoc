@@ -4,104 +4,67 @@ permalink: manage-project.html
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
 summary: Manage Microsoft SQL Server instances in Workload Factory for Databases. 
 ---
-= Manage Microsoft SQL Server instances
+= Manage a Builders project
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Manage Microsoft SQL Server instances to monitor instance and database status, resource utilization, protection, and storage performance in Workload Factory for Databases. 
+You can view, edit, protect, and delete Builders projects to control how your code and artifacts are managed for each project in workload factory for Builders. 
 
 Databases can only manage Microsoft SQL Server instances with FSx for ONTAP file system storage. 
 
-== Microsoft SQL Server instance management 
-Microsoft SQL Server instance management includes the following tasks: 
-
-* Manage a host instance
-* View a managed instance
-* View databases
-* Unmanage a host instance
-
-To complete any of these tasks, you must link:detect-host.html[detect one or more host instances^]. 
-
-== Manage a host instance 
-Manage a detected or unmanaged Microsoft SQL Server instances for a host.
-
-To manage a host instance in a private network with no external connectivity, the following endpoints need to be available in the VPC with association to the subnets where SQL servers are present. Ensure the interface endpoints allow port 443 in the attached Security Group.
-
-* `S3 Gateway/endpoint`
-* `ssm`
-* `ssmmessages`
-* `fsx` 
-
-.Before you begin
-Complete the following prerequisites before you begin: 
-
-* You must have a detected instance in the host that is available for management. 
-* PowerShell7 is required to manage the database instance. Install PowerShell7 manually by referring to link:https://learn.microsoft.com/en-us/powershell/scripting/developer/module/installing-a-powershell-module?view=powershell-7.4[Microsoft PowerShell documentation for Windows^].
-* All manage operations are run by the AWS System Manager Agent using `NT Authority\SYSTEM` user privilege. Provide the following permissions for `NT Authority\SYSTEM` user in the database server: 
-
-** `“ALTER SETTINGS”`
-** `“CONTROL SERVER”` 
-** `“ALTER ANY DATABASE”` 
-** `“VIEW ANY DEFINITION”` 
-** `“CONNECT ANY DATABASE”`
-** `“CREATE ANY DATABASE”` 
+== View projects
+You can view existing projects created in workload factory for Builders by following these steps. 
 
 .Steps
-. Log in to the link:https://console.workloads.netapp.com[Workload Factory console^].
-. In the Databases tile, select *Go to Databases Inventory*.
-. In Databases, select the *Inventory* tab. 
-. Click *Manage* in the row of the host to manage. 
-. Select one or more host instances to manage. 
-. Click *Manage*. 
-
-The operation fails when the Microsoft SQL Server is missing certain PowerShell modules and management scripts. Workload Factory triggers a prepare resource job to install missing modules and scripts which you can view in the Job monitoring tab. When the job completes, retry to manage the host instance.
-
-== View a managed instance
-You can view a managed instance by following these steps.
-
-.Steps
-. Log in to the link:https://console.workloads.netapp.com[Workload Factory console^].
-. In the Databases tile, select *Go to Databases Inventory*.
-. In Databases, select the *Inventory* tab. 
-. Click the dropdown arrow to expand the row of the host to view its managed instances. 
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
 +
-The host expands and the host instances appear. 
-. Click the three dots menu of the instance to view and then select *View instance*. 
+View the existing projects listed under *Projects*.
 
-.Result 
-The overview of the instance appears in the Inventory tab. 
+== Edit a project
+You can edit the settings of a project at any time. 
 
-== View databases 
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. Under *Projects*, select the actions menu for the project you want to edit.
+. Make any needed changes to the project configuration.
+. Select *Save*.
+
+== Create a snapshot of a project
+// How do you view snapshots?
+You can create a snapshot of a project by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. Under *Projects*, select the actions menu for the project you want to snapshot.
+. In the resulting menu, select *Create a snapshot*.
+. In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
+
+////
+== Clone a project 
 You can view the databases managed by the managed instance by following these steps. 
 
 .Steps
-. Log in to the link:https://console.workloads.netapp.com[Workload Factory console^].
-. In the Databases tile, select *Go to Databases Inventory*.
-. In Databases, select the *Inventory* tab. 
-. Click the dropdown arrow to expand the row of the host to view its databases.
-+
-The host expands and the host instances appear.  
-. Click the three dots menu of the instance containing the databases to view.
-. Select *View databases*. 
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. On the Create project page, provide the following:
+.. *Project name*: Enter a name for the project.
+////
 
-.Result
-The list of databases in the instance appears in the Inventory tab.
-
-== Unmanage a host instance
-Unmanage a host instance by following these steps.
+== Delete a project
+You can delete a project when it is no longer needed by following these steps.
 
 .Steps
-. Log in to the link:https://console.workloads.netapp.com[Workload Factory console^].
-. In the Databases tile, select *Go to Databases Inventory*.
-. In Databases, select the *Inventory* tab. 
-. Click the dropdown arrow to expand the row of the host instance to unmanage. 
-+
-The host expands and the host instances appear. 
-. Click the three dots menu of the instance to unmanage. 
-. Select *Unmanage*. 
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. Under *Projects*, select the actions menu for the project you want to delete.
+. Select *Delete*.
+. In the confirmation dialog, select *Delete*.
 
 .Result
-The host instance is now unmanaged. 
+The project is deleted, and any code or artifacts associated with the project are deleted from the volume. Snapshots and clones of the project are retained.
 
 
