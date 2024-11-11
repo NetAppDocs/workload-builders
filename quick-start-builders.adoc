@@ -19,7 +19,7 @@ You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.h
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Add AWS credentials and permissions to your account
 
 [role="quick-margin-para"]
-You can use workload factory in _Basic_ mode without adding credentials to access your AWS account. Adding AWS credentials to workload factory in either _Read_ or _Automate_ mode gives your workload factory account the permissions needed to create and manage FSx for ONTAP file systems, and to deploy and manage workloads within VMware Cloud.
+You can use workload factory in _Basic_ mode without adding credentials to access your AWS account. Adding AWS credentials to workload factory in either _Read_ or _Automate_ mode gives your workload factory account the permissions needed to create and manage FSx for ONTAP file systems, and to deploy and manage Builders projects.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add credentials and permissions^].
@@ -29,7 +29,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 [role="quick-margin-para"]
 You'll need a deployed and discovered FSx for ONTAP file system that contains at least one volume that has been configured for use with Builders projects.
 
-link:requirements.html[Learn more about Builders requirements^].
+link:requirements-builders.html[Learn more about Builders requirements^].
 
 .What's next
 
