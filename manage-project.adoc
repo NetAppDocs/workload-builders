@@ -4,14 +4,12 @@ permalink: manage-project.html
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
 summary: Manage Microsoft SQL Server instances in Workload Factory for Databases. 
 ---
-= Manage a Builders project
+= Manage Builders projects
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-You can view, edit, protect, and delete Builders projects to control how your code and artifacts are managed for each project in workload factory for Builders. 
-
-Databases can only manage Microsoft SQL Server instances with FSx for ONTAP file system storage. 
+You can manage Builders projects to control how your code and artifacts are managed for each project in workload factory for Builders. 
 
 == View projects
 You can view existing projects created in workload factory for Builders by following these steps. 

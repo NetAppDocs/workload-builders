@@ -14,8 +14,8 @@ indexpage:
       links:
         - title: Create a project
           url: /create-project.html
-        - title: Monitor a project
-          url: /monitor-projects.html
+        - title: Manage projects
+          url: /manage-project.html
     - title: Knowledge and support
       links:
         - title: Register for support

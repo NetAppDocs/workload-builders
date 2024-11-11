@@ -34,7 +34,7 @@ sidebar:
       - title: Create a project
         url: /create-project.html 
       - title: Manage projects
-        url: /manage-projects.html
+        url: /manage-project.html
       - title: Automate with Codebox
         url: /automate-codebox.html
   - title: Use Perforce
@@ -43,18 +43,18 @@ sidebar:
         url: /integrate-perforce.html 
       - title: Manage Perforce 
         url: /manage-perforce.html
-  - title: Administer and monitor projects
-    entries:
-      - title: Create a project
-        url: /create-projects.html
-      - title: Manage workspaces
-        url: /manage-projects.html
-      - title: Monitor projects
-        url: /monitor-projects.html
-      - title: Clone a project
-        url: /create-project-clone.html
-      - title: Create a snapshot of a project
-        url: /create-project-snapshot.html
+  #- title: Administer and monitor projects
+  #  entries:
+  #    - title: Create a project
+  #      url: /create-projects.html
+  #    - title: Manage workspaces
+  #      url: /manage-projects.html
+  #    - title: Monitor projects
+  #      url: /monitor-projects.html
+  #    - title: Clone a project
+  #      url: /create-project-clone.html
+  #    - title: Create a snapshot of a project
+  #      url: /create-project-snapshot.html
   - title: Knowledge and support
     entries: 
       - title: Register for support
