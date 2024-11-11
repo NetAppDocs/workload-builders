@@ -17,13 +17,13 @@ You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.h
 
 AWS credentials and permissions::
 You need to add AWS credentials to workload factory with automate permissions, which means you'll be using workload factory in _Automate_ mode for Builders.
-+
+
 _Basic_ mode and _Read_ mode permissions are not supported at this time.
-+
-When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP file systems and to deploy and manage Builders projects.
-+
-image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
-+
+//+
+//When setting up your credentials, selecting permissions as shown below provides you with full access to manage FSx for ONTAP file systems and to deploy and manage Builders projects.
+//+
+//image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
+//+
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add AWS credentials to Workload Factory^]
 
 FSx for ONTAP file system::
