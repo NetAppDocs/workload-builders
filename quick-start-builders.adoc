@@ -10,33 +10,27 @@ summary: Databases has three different modes that have different requirements.
 :imagesdir: ./media/
 
 [.lead]
-Get started creating a Builders project. An application such as a chatbot will access this knowledge base to provide organization-focused responses to end users.
+Get started creating a Builders project. Administrators and team leads can use Builders to administer projects and workspaces for teams of developers.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to workload factory
 
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with workload factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up your environment to meet GenAI requirements
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Add AWS credentials and permissions to your account
 
 [role="quick-margin-para"]
-You'll need AWS credentials to deploy the AWS infrastructure, a deployed and discovered FSx for ONTAP file system, the list of data sources that you want to integrate in your knowledge base, access to the Amazon Bedrock AI service, and more.
-
-link:requirements.html[Learn more about GenAI requirements^].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Identify the FSx for ONTAP file system that contains the data sources
+You can use workload factory in _Basic_ mode without adding credentials to access your AWS account. Adding AWS credentials to workload factory in either _Read_ or _Automate_ mode gives your workload factory account the permissions needed to create and manage FSx for ONTAP file systems, and to deploy and manage workloads within VMware Cloud.
 
 [role="quick-margin-para"]
-The data sources that you'll integrate in your knowledge base can be located on a single FSx for ONTAP file system, or on multiple FSx for ONTAP file systems. These systems can be in different VPCs, but they must be accessible within the same network. 
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add credentials and permissions^].
 
-link:identify-data-sources.html[Learn how to identify data sources^].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Deploy the knowledge base infrastructure
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Set up your environment to meet Builders requirements
 
 [role="quick-margin-para"]
-Launch the infrastructure deployment wizard to deploy the knowledge base infrastructure in your AWS environment. This process deploys an EC2 instance for the NetApp GenAI engine, and a volume on an FSx for ONTAP file system to contain the NetApp AI Engine databases. The volume is used to store the vector database used by the knowledge base.
+You'll need a deployed and discovered FSx for ONTAP file system that contains at least one volume that has been configured for use with Builders projects.
 
-link:deploy-infrastructure.html[Learn how to deploy the knowledge base infrastructure^].
+link:requirements.html[Learn more about Builders requirements^].
 
 .What's next
 
-You can now build a knowledge base to provide organization-focused responses to end users.
+You can now create a project to provide fast and efficient management of code and artifacts to teams of developers.

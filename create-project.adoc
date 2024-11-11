@@ -18,7 +18,7 @@ You can create a new Builders project so that you can leverage the data protecti
 .. *Project name*: Enter a name for the project.
 .. *Description*: Enter a description for the project.
 .. *Filesystem*: Provide the following:
-... *Credentials*: Select the Amazon AWS credentials to use. Builders will use these credentials to discover FSx for ONTAP filesystems that you can use with this project and perform data protection tasks.
+... *Credentials*: Select the Amazon AWS credentials to use. Builders uses these credentials to discover FSx for ONTAP filesystems that you can use with this project and to create clones and snapshots of projects.
 ... *Region*: Select the region that this FSx for ONTAP filesystem resides in.
 ... *FSx for ONTAP filesystem*: Select an FSx for ONTAP filesystem to use with this project. You can only select filesystems that are configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
 ... *Choose a volume*: Select a volume on which to store the project. You can only select volumes that have been configured for NFS sharing.

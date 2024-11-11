@@ -28,13 +28,18 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
-+
-* One file system will be used by Builders to store the projects and workspaces that you create. 
+
+* The file system will be used by Builders to store the projects and workspaces that you create. 
 +
 This FSx for ONTAP file system must use FlexVol volumes. FlexGroup volumes are not supported.
 
-* You'll need to know the AWS region, VPC, and subnet where the AWS FSx for ONTAP file system resides. The file system must be in an AWS region that has Amazon Bedrock enabled.
+* You'll need to know the AWS region, VPC, and subnet where the AWS FSx for ONTAP file system resides.
+
+* You'll need at least one volume in the filesystem with the following configuration:
+** The volume must be configured as an NFS share.
+** The volume must be configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
 
 * You'll need to consider the tag key/value pairs that you want to apply to the AWS resources that are part of this deployment (optional).
 +
 https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html[Learn how to deploy and manage FSx for ONTAP file systems^]
+
