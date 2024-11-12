@@ -25,7 +25,7 @@ You can edit the settings of a project at any time.
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Create project*. 
+. In the Builders tile, select *Go to Projects page*. 
 . Under *Projects*, select the actions menu for the project you want to edit.
 . Make any needed changes to the project configuration.
 . Select *Save*.
@@ -36,7 +36,7 @@ You can create a snapshot of a project by following these steps.
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Create project*. 
+. In the Builders tile, select *Go to Projects page*. 
 . Under *Projects*, select the actions menu for the project you want to snapshot.
 . In the resulting menu, select *Create a snapshot*.
 . In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
@@ -52,12 +52,25 @@ You can view the databases managed by the managed instance by following these st
 .. *Project name*: Enter a name for the project.
 ////
 
+== Create a clone of a project
+
+
+== View a project's workspaces
+A clone or snapshot of a project is known as a workspace. When you create a workspace, it is retained for as long as the project's operation policy allows. You can view existing workspaces for a project by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. Under *Projects*, choose a project and select *View*.
+. View the status and details of all workspaces for this project.
+. If you see alerts or warnings for a workspace, hover over the alert or warning icon to see the reason.
+
 == Delete a project
 You can delete a project when it is no longer needed by following these steps.
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Create project*. 
+. In the Builders tile, select *Go to Projects page*. 
 . Under *Projects*, select the actions menu for the project you want to delete.
 . Select *Delete*.
 . In the confirmation dialog, select *Delete*.
