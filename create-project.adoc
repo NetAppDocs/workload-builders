@@ -39,3 +39,5 @@ For example: `172.16.0.0/24`
 For example: `User1234`
 . Select *Create*. 
 
+.Result
+The project is created, and appears in the list of projects on the Projects page.
