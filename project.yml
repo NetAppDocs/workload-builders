@@ -58,9 +58,9 @@ sidebar:
   - title: Knowledge and support
     entries: 
       - title: Register for support
-        url: /support-registration-databases.html
+        url: /support-registration-builders.html
       - title: Get help
-        url: /get-help-databases.html                  
+        url: /get-help-builders.html                  
   - title: Legal notices
     url: /legal-notices.html
 

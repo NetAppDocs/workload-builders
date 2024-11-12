@@ -19,9 +19,9 @@ indexpage:
     - title: Knowledge and support
       links:
         - title: Register for support
-          url: /support-registration-databases.html
+          url: /support-registration-builders.html
         - title: Get help
-          url: /get-help-databases.html
+          url: /get-help-builders.html
 #    - title: Blogs & community
 #      links:
 #        - title: NetApp Community
