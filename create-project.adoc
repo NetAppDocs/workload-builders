@@ -29,9 +29,9 @@ You can create a new Builders project so that you can leverage the data protecti
 .. *Access policies*: Explicitly grant project access to specific users or groups:
 ... *Policy enforcement scope*: Enter single IP addresses or IP address ranges to limit project access to only those IP addresses or ranges.
 +
-For example: '172.16.0.0/24'
+For example: `172.16.0.0/24`
 ... *User or group identifiers*: Enter user or group identifiers to limit project access to only those users or groups.
 +
-For example: 'User1234'
+For example: `User1234`
 . Select *Create*. 
 

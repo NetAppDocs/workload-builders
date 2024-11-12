@@ -1,5 +1,5 @@
 indexpage:
-  title: Workload factory for Builders workloads documentation
+  title: BlueXP workload factory for Builders documentation
   lead: Create and manage software development projects on top of FSx for ONTAP file system storage in BlueXP Workload factory.
   tiles: 
     - title: Get started
