@@ -13,7 +13,7 @@ summary: Ensure that workload factory and AWS are set up properly before you beg
 Ensure that workload factory and AWS are set up properly before you begin using workload factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
 
 Workload factory login and account::
-You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with workload factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 AWS credentials and permissions::
 You need to add AWS credentials to workload factory with automate permissions, which means you'll be using workload factory in _Automate_ mode for Builders.
@@ -24,7 +24,7 @@ _Basic_ mode and _Read_ mode permissions are not supported at this time.
 //+
 //image:screenshot-ai-permissions.png[A screenshot showing the permissions setting for full management of AI resources.]
 //+
-https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add AWS credentials to Workload Factory^]
+https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add AWS credentials to workload factory^]
 
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:

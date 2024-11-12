@@ -23,7 +23,7 @@ sidebar:
         url: /known-limitations.html 
   - title: Get started
     entries: 
-      - title: Learn about Workload Factory for Builders
+      - title: Learn about workload factory for Builders
         url: /learn-builders.html 
       - title: Quick start
         url: /quick-start-builders.html
@@ -65,5 +65,5 @@ sidebar:
     url: /legal-notices.html
 
 product-family:
-  name: BlueXP Workload Factory for AWS
+  name: BlueXP workload factory for AWS
   repo: workload-family
