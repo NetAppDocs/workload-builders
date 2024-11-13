@@ -22,13 +22,12 @@ For more information about workload factory, refer to the link:https://docs.neta
 Workload factory for Builders offers the following features:
 
 * Integrate with version control systems such as Perforce
-* Create clones of workspaces
-* Create snapshots of projects
+* Create clones and snapshots of projects
 * Create, edit, and remove projects and workspaces
-* Associate FSx filesystems with each project
+//* Associate FSx filesystems with each project
 * Create access policies to control who has access to a project
 * Analyze capacity usage of each project
-* Create operation policies to control clone size limits and clone retention
+* Control clone size limits and clone retention for each project
 
 == Projects and workspaces in Builders
 When you use Builders, you create a project to represent your build environment and its artifacts. Each project can contain one or more workspaces. Each workspace is a point in time snapshot of the build environment (for example, a different version of the software, or another instance of the same version). You can quickly switch between workspaces if you need to work on a different version, test experimental changes, or update a previous release.
