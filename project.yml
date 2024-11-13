@@ -37,12 +37,12 @@ sidebar:
         url: /manage-project.html
       - title: Automate with Codebox
         url: /automate-codebox.html
-  - title: Use Perforce
-    entries: 
-      - title: Integrate Builders with Perforce
-        url: /integrate-perforce.html 
-      - title: Manage Perforce 
-        url: /manage-perforce.html
+  # - title: Use Perforce
+  #   entries: 
+  #     - title: Integrate Builders with Perforce
+  #       url: /integrate-perforce.html 
+  #     - title: Manage Perforce 
+  #       url: /manage-perforce.html
   #- title: Administer and monitor projects
   #  entries:
   #    - title: Create a project
