@@ -30,6 +30,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 [role="quick-margin-para"]
 You'll need a deployed and discovered FSx for ONTAP file system that contains at least one volume that has been configured for use with Builders projects.
 
+[role="quick-margin-para"]
 link:requirements-builders.html[Learn more about Builders requirements^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Integrate with Perforce
@@ -37,8 +38,8 @@ link:requirements-builders.html[Learn more about Builders requirements^].
 [role="quick-margin-para"]
 Integrate Builders with Perforce to take advantage of version control and workspace management.
 
+[role="quick-margin-para"]
 link:integrate-perforce.html[Learn how to integrate Builders with Perforce^].
-
 
 .What's next
 
