@@ -29,6 +29,8 @@ sidebar:
         url: /quick-start-builders.html
       - title: Requirements
         url: /requirements-builders.html 
+      - title: Integrate Builders with Perforce
+        url: /integrate-perforce.html
   - title: Use Builders workloads
     entries: 
       - title: Create a project

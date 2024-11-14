@@ -1,0 +1,13 @@
+---
+sidebar: sidebar
+permalink: integrate-perforce.html
+keywords: software builders, integrate, integration, Perforce
+summary: Learn how to integrate Builders with Perforce. 
+---
+= Integrate Builders with Perforce
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Workload factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
+
