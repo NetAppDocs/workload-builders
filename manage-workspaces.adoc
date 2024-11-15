@@ -10,38 +10,21 @@ summary: A workspace in BlueXP workload factory for Builders is a Perforce repre
 
 [.lead]
 A workspace in BlueXP workload factory for Builders is a Perforce representation of a project that is created from a project snapshot. You can create and manage workspaces as part of a Builders project. 
+You can manage workspaces from the Perforce UI.
 
 
 == Create workspace
 You can create a new workspace from a snapshot of a project.
 
 .Steps
+. Log in to Perforce.
+. In the Perforce menu, select *View* > *WF*.
++
+The workload factory login screen appears within the Perforce UI.
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Belect *Create workspace*. 
+. Select *Create workspace*. 
 . On the Create a workspace project page, provide the following:
-.. *Project name*: Enter a name for the project.
-.. *Description*: Enter a description for the project.
-.. *Filesystem*: Provide the following:
-... *Credentials*: Select the Amazon AWS credentials to use. Builders uses these credentials to discover FSx for ONTAP filesystems that you can use with this project and to create clones and snapshots of projects.
-... *Region*: Select the region that this FSx for ONTAP filesystem resides in.
-... *FSx for ONTAP filesystem*: Select an FSx for ONTAP filesystem to use with this project.
-+
-You can only select filesystems that are configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
-... *Choose a volume*: Select a volume on which to store the project; Builders uses this volume as a software repository.
-+
-You can only select volumes that are configured as an NFS share.
-.. *Operation policies*: Provide limits for project clones:
-... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, workload factory removes the clone.
-... *Maximum number of clones per user or group*: Enter the maximum number of clones that a user or group can store.
-... *Maximum clone size in GiB*: Enter the maximum size in GiB of a project clone.
-.. *Access policies*: Explicitly grant project access to specific users or groups:
-... *Policy enforcement scope*: Enter single IP addresses or IP address ranges to limit project access to only those IP addresses or ranges.
-+
-For example: `172.16.0.0/24`
-... *User or group identifiers*: Enter user or group identifiers to limit project access to only those users or groups.
-+
-For example: `User1234`
-. Select *Create*. 
+
 
 .Result
 The project is created, and appears in the list of projects on the Projects page.
