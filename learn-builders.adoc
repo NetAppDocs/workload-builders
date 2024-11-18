@@ -12,25 +12,24 @@ summary: Workload factory for Builders is a rapid build environment creation too
 Workload factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
 
 == What is workload factory for Builders?
-Workload factory for Builders enables the rapid creation of software development environments and uses Amazon FSx for NetApp ONTAP filesystems to store them. Perforce integration enables version control and efficient storage of large artifacts on the filesystem. The data protection and snapshot capabilities of Amazon FSx for NetApp ONTAP enable developers to quickly switch between projects or versions of a project without having to rebuild their environment.
-
-Workload factory for Builders leverages ONTAP's snapshot and clone features with version control systems like Perforce to provide a managed and monitored service. This enables engineering teams to quickly access different versions without syncing with the version control system, significantly speeding up development, QA, CI/CD, and verification processes, and reducing time to market.
+Workload factory for Builders is a cutting-edge tool designed to streamline the way developers manage and interact with different versions of their software. This tool integrates seamlessly with Perforce Helix Core to provide instant clones of software versions, creating ready-to-use workspaces for development, QA, and CI/CD processes. With Builders, you can easily create a project and assign a volume that represents your software environment and its artifacts. As you update your software, you can take snapshots of the volume, capturing the state of your software at that moment. These snapshots can then be used as clones, which are like live, editable copies of your software at a specific version. This means you can access any version of your software instantly without the need to resync with the version control system, saving valuable time and resources. By leveraging ONTAP's snapshot and clone capabilities, Builders enhances your development workflow, allowing for rapid access to multiple versions of your software, accelerating development cycles, and helping to reduce time to market.
 
 For more information about workload factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
 
 == Workload factory for Builders features
 Workload factory for Builders offers the following features:
 
-* Integrate with version control systems such as Perforce
-* Create clones and snapshots of projects
-* Create, edit, and remove projects and workspaces
-//* Associate FSx filesystems with each project
-* Create access policies to control who has access to a project
-* Analyze capacity usage of each project
+* Create, edit, and remove projects
+* Create snapshots of defined software versions
+* Create, and delete workspaces (based on clones)
+* Create access policies to control access to a project
+* Analyze the capacity usage of each project
 * Control clone size limits and clone retention for each project
+* Integrate with version control systems such as Perforce
 
 == Projects and workspaces in Builders
-When you use Builders, you create a project to represent your build environment and its artifacts. Each project can contain one or more workspaces. Each workspace is a point in time snapshot of the build environment (for example, a different version of the software, or another instance of the same version). You can quickly switch between workspaces if you need to work on a different version, test experimental changes, or update a previous release.
+When you use Builders, you create a project and assign a volume that represents your software environment and its artifacts. Each time that you create a new version of the software, you need resync the volume data and create a project snapshot to mark the volume state as a known version. The project source volume might get rolling updates and have multiple snapshots to mark multiple versions. You can use each snapshot immediately as an instant clone, a dedicated or shared editable repository available to developers, QA or build processes. A clone in the context of a specific software version is a workspace.
+ 
 
 == Operational modes in workload factory
 Three different operational modes - _basic_, _read_ and _automate_ - offer flexible options for deployment inside and outside of workload factory. Gain immediate value at zero-trust in _basic_ mode with code snippets for use outside workload factory. Get incremental value with incremental trust in _read_ and _automate_ modes. 

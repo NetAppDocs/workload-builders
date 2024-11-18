@@ -28,7 +28,7 @@ You can only select filesystems that are configured with a link. https://docs.ne
 You can only select volumes that are configured as an NFS share.
 .. *Operation policies*: Provide limits for project clones:
 ... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, workload factory removes the clone.
-... *Maximum number of clones per user or group*: Enter the maximum number of clones that a user or group can store.
+... *Maximum number of clones per user or group*: Enter the maximum number of clones that can be provisioned for a user or group.
 ... *Maximum clone size in GiB*: Enter the maximum size in GiB of a project clone.
 .. *Access policies*: Explicitly grant project access to specific users or groups:
 ... *Policy enforcement scope*: Enter single IP addresses or IP address ranges to limit project access to only those IP addresses or ranges.
