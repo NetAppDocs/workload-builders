@@ -1,0 +1,37 @@
+---
+sidebar: sidebar
+permalink: manage-workspaces.html
+keywords: manage, workspace, snapshot, project 
+summary: A workspace in BlueXP workload factory for Builders is a Perforce representation of a project that is based off of a project snapshot. You can create and manage workspaces as part of a Builders project.
+---
+= Manage workspaces
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+A workspace in BlueXP workload factory for Builders is a Perforce representation of a project that is created from a project snapshot. You can create and manage workspaces as part of a Builders project. 
+You can manage workspaces from the Perforce UI.
+
+
+== Create workspace
+You can create a new workspace from a snapshot of a project.
+
+.Steps
+. Log in to Perforce.
+. In the Perforce menu, select *View* > *WF*.
++
+The workload factory login screen appears within the Perforce UI.
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select *Create workspace*. 
+. On the Create a workspace project page, provide the following:
+
+
+.Result
+The project is created, and appears in the list of projects on the Projects page.
+
+== View workspaces
+
+== Access a workspace
+
+== Delete a workspace
+

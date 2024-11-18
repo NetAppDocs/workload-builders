@@ -29,12 +29,16 @@ sidebar:
         url: /quick-start-builders.html
       - title: Requirements
         url: /requirements-builders.html 
+      - title: Integrate Builders with Perforce
+        url: /integrate-perforce.html
   - title: Use Builders workloads
     entries: 
       - title: Create a project
         url: /create-project.html 
       - title: Manage projects
-        url: /manage-project.html
+        url: /manage-projects.html
+      - title: Manage workspaces
+        url: /manage-workspaces.html
       - title: Automate with Codebox
         url: /automate-codebox.html
   # - title: Use Perforce
