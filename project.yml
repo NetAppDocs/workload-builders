@@ -33,8 +33,6 @@ sidebar:
         url: /integrate-perforce.html
   - title: Use Builders workloads
     entries: 
-      - title: Create a project
-        url: /create-project.html 
       - title: Manage projects
         url: /manage-projects.html
       - title: Create a workspace

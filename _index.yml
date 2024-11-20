@@ -12,8 +12,6 @@ indexpage:
           url: /quick-start-builders.html
     - title: Use Builders
       links:
-        - title: Create a project
-          url: /create-project.html
         - title: Manage projects
           url: /manage-project.html
     - title: Knowledge and support
