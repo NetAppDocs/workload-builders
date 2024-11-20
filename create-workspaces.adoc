@@ -27,7 +27,7 @@ The workload factory login screen appears within the Perforce UI.
 . On the Create a workspace project page, provide the following:
 .. Select a snapshot to use as a basis for the workspace.
 .. Enter a name for the workspace.
-.. Optionally, enter a user identifier to claim the workspace.
+.. Optionally, enter a user identifier to claim the workspace. This identifier should match the Perforce user ID of the developer that will use this workspace.
 . Select *Create*.
 
 .Result
