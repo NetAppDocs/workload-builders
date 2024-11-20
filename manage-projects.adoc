@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: manage-project.html
+permalink: manage-projects.html
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
 summary: Manage Microsoft SQL Server instances in workload factory for Databases. 
 ---
