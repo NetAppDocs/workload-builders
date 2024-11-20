@@ -11,8 +11,8 @@ summary: A workspace in BlueXP workload factory for Builders is a Perforce repre
 [.lead]
 A workspace in BlueXP workload factory for Builders is a Perforce representation of a project at a specific moment in time. Workspaces are created using a project snapshot as a basis. You can create new workspaces within a Builders project. You can create workspaces from the Perforce UI.
 
-== Create a workspace
-You can create a new workspace from a snapshot of a project.
+//== Create a workspace
+//You can create a new workspace from a snapshot of a project.
 
 .Before you begin
 Ensure you have integrated Builders with the Perforce Helix Visual Client. See link:integrate-perforce.html[Integrate Builders with Perforce^] for more information.
