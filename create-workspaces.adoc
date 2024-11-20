@@ -14,6 +14,9 @@ A workspace in BlueXP workload factory for Builders is a Perforce representation
 == Create a workspace
 You can create a new workspace from a snapshot of a project.
 
+.Before you begin
+Ensure you have integrated Builders with the Perforce Helix Visual Client. See link:integrate-perforce.html[Integrate Builders with Perforce^] for more information.
+
 .Steps
 . Log in to Perforce.
 . In the Perforce menu, select *View* > *WF*.
