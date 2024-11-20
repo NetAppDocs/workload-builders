@@ -13,7 +13,7 @@ Workload Factory simplifies software version consumption and access, eliminating
 
 Learn what's new with the Builders capability of workload factory.
 
-== 01 December 2024
+== 27 November 2024
 
 include::_whatsnew/2024-11-27.adoc[]
 
