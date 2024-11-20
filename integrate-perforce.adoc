@@ -9,9 +9,17 @@ summary: Learn how to integrate Builders with Perforce.
 :imagesdir: ./media/
 
 [.lead]
-Integrate Builders with Perforce P4V so that developers can manage your workspaces using the Perforce CLI. This enables developers to quickly switch between projects and workspaces, saving time during development.
+Integrate Builders with the Perforce Helix Visual Client (P4V) so that developers can manage your workspaces using the Perforce CLI. This enables developers to quickly switch between projects and workspaces, saving time during development.
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. On the Projects page, Select *Learn about P4V integration*.
++
+The P4V integration dialog appears.
+. Optionally, select *Go to P4v integration demo* to be guided through the integration process with an instructional video.
+. Follow the instructions to integrate workload factory for Builders with the Perforce Helix Visual Client.
+. When you are done, select *OK*.
+
+
 
 
