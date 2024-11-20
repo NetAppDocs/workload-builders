@@ -17,8 +17,7 @@ You can view existing projects created in workload factory for Builders by follo
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Go to Projects page*. 
-+
-View the existing projects listed on the Projects page.
+. View the existing projects listed on the Projects page.
 
 == Edit a project
 You can edit the settings of a project at any time. 
@@ -31,7 +30,6 @@ You can edit the settings of a project at any time.
 . Select *Save*.
 
 == Create a snapshot of a project
-// How do you view snapshots?
 You can create a snapshot of a project by following these steps.
 
 .Steps
