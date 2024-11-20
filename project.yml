@@ -37,7 +37,7 @@ sidebar:
         url: /create-project.html 
       - title: Manage projects
         url: /manage-projects.html
-      - title: Create workspaces
+      - title: Create a workspace
         url: /create-workspaces.html
       - title: Automate with Codebox
         url: /automate-codebox.html
