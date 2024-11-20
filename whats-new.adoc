@@ -11,9 +11,11 @@ summary: Learn what's new with workload factory for Databases.
 [.lead]
 Workload Factory simplifies software version consumption and access, eliminating the need for custom tools or scripts. It allows you to consume software versions as instant clones integrated with Perforce Helix Core as a ready Workspace for your development processes, saving time and resources.
 
+Learn what's new with the Builders capability of workload factory.
+
 == 01 December 2024
 
-include::_whatsnew/2024-12-01.adoc[]
+include::_whatsnew/2024-11-27.adoc[]
 
 
 

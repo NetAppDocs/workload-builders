@@ -1,3 +1,0 @@
-=== Builders Workload initial release  
-
-The initial release includes the capability to create a project that contains workspaces and automate actions with Codebox. You can also integrate Builders with Perforce, so that you can manage different revisions of your projects, and switch between them quickly.
