@@ -15,8 +15,3 @@ Known limitations identify platforms, devices, or functions that are not support
 == Operator permissions required
 Workload factory for Builders requires Operator permissions to function correctly.
 
-== Known limitation 2
-
-== Known limitation 3
-
-
