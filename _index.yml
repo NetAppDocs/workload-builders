@@ -13,7 +13,11 @@ indexpage:
     - title: Use Builders
       links:
         - title: Manage projects
-          url: /manage-project.html
+          url: /manage-projects.html
+        - title: Create a workspace
+          url: /create-workspaces.html
+        - title: Automate with Codebox
+          url: /automate-codebox.html
     - title: Knowledge and support
       links:
         - title: Register for support
