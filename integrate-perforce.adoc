@@ -19,7 +19,7 @@ Integrate Builders with the Perforce Helix Visual Client (P4V) so that developer
 . Go to *View* > *Workload Factory*.
 
 .Result
-You should see an instance of workload factory for Builders as a tab within P4V.
+The Workload factory for Builders web UI appears as an HTML tab within the P4V client.
 
 //. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 //. Optionally, select *Go to P4v integration demo* to be guided through the integration process with an instructional video.
