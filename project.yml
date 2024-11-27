@@ -23,7 +23,7 @@ sidebar:
         url: /known-limitations.html 
   - title: Get started
     entries: 
-      - title: Learn about workload factory for Builders
+      - title: Learn about BlueXP workload factory for Builders
         url: /learn-builders.html 
       - title: Quick start
         url: /quick-start-builders.html

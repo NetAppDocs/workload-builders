@@ -2,17 +2,17 @@
 sidebar: sidebar
 permalink: learn-builders.html
 keywords: software builders, development, benefits
-summary: Workload factory for Builders is a rapid build environment creation tool for software builders. 
+summary: BlueXP workload factory for Builders is a rapid build environment creation tool for software builders. 
 ---
-= Learn about workload factory for Builders
+= Learn about BlueXP workload factory for Builders
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Workload factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
+BlueXP workload factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
 
-== What is workload factory for Builders?
-Workload factory for Builders is designed to streamline the way developers manage and interact with different versions of their software. Builders integrates seamlessly with Perforce Helix Core to provide instant clones of software versions, creating ready-to-use workspaces for development, QA, and CI/CD processes. 
+== What is BlueXP workload factory for Builders?
+BlueXP workload factory for Builders is designed to streamline the way developers manage and interact with different versions of their software. Builders integrates seamlessly with Perforce Helix Core to provide instant clones of software versions, creating ready-to-use workspaces for development, QA, and CI/CD processes. 
 
 With Builders, you can easily create a project and assign a volume that represents your software environment and its artifacts. As you update your software, you can take snapshots of the volume, capturing the state of your software at that moment. This means you can access any version of your software instantly without the need to resync with the version control system, saving valuable time and resources.
 
@@ -20,8 +20,8 @@ By leveraging ONTAP's snapshot and clone capabilities, Builders enhances your de
 
 For more information about workload factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
 
-== Workload factory for Builders features
-Workload factory for Builders offers the following features:
+== BlueXP workload factory for Builders features
+BlueXP workload factory for Builders offers the following features:
 
 * Create, edit, and remove projects
 * Create snapshots of defined software versions
