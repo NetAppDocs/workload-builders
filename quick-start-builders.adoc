@@ -43,4 +43,4 @@ link:integrate-perforce.html[Learn how to integrate Builders with Perforce^].
 
 .What's next
 
-You can now link:create-project.html[create a project] to provide fast and efficient management of code and artifacts to teams of developers.
+You can now link:manage-projects.html[create a project] to provide fast and efficient management of code and artifacts to teams of developers.
