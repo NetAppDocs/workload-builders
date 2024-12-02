@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: integrate-perforce.html
+keywords: software builders, integrate, integration, Perforce
+summary: Learn how to integrate Builders with Perforce. 
+---
+= Integrate Builders with Perforce
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Integrate Builders with the Perforce Helix Visual Client (P4V) so that developers can manage your workspaces using the Perforce CLI. This enables developers to quickly switch between projects and workspaces, saving time during development.
+
+.Steps
+. Download the https://builders.console.workloads.netapp.com/p4v[P4V integration file^].
+. Open P4V and go to *Tools* > *Manage Tools* > *HTML tabs*.
+. Select *Import HTML tabs*.
+. Select the P4V integration XML file and select *Import*.
+. Go to *View* > *Workload Factory*.
+
+.Result
+The BlueXP workload factory for Builders web UI appears as an HTML tab within the P4V client.
+
+//. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+//. Optionally, select *Go to P4v integration demo* to be guided through the integration process with an instructional video.
+//. Follow the instructions to integrate workload factory for Builders with the Perforce Helix Visual Client.
+//. When you are done, select *OK*.
+
+.What's next?
+
+link:manage-projects.html[Create an Amazon EC2 deployment plan using the migration advisor].
+

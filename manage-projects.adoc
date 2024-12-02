@@ -1,0 +1,114 @@
+---
+sidebar: sidebar
+permalink: manage-projects.html
+keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
+summary: Manage Microsoft SQL Server instances in workload factory for Databases. 
+---
+= Manage Builders projects
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can manage Builders projects to control how your code and artifacts are managed for each project in BlueXP workload factory for Builders. 
+
+== Create a project
+
+You can create a new Builders project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. On the Create project page, provide the following:
+.. *Project name*: Enter a name for the project.
+.. *Description*: Enter a description for the project.
+.. *Filesystem*: Provide the following:
+... *Credentials*: Select the Amazon AWS credentials to use. Builders uses these credentials to discover FSx for ONTAP filesystems that you can use with this project and to create clones and snapshots of projects.
+... *Region*: Select the region that this FSx for ONTAP filesystem resides in.
+... *FSx for ONTAP filesystem*: Select an FSx for ONTAP filesystem to use with this project.
++
+You can only select filesystems that are configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
+... *Choose a volume*: Select a volume on which to store the project; Builders uses this volume as a software repository.
++
+You can only select volumes that are configured as an NFS share.
+.. *Operation policies*: Provide limits for project clones:
+... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, workload factory removes the clone.
+... *Maximum number of clones per user or group*: Enter the maximum number of clones that can be provisioned for a user or group.
+... *Maximum clone size in GiB*: Enter the maximum size in GiB of a project clone.
+.. *Access policies*: Explicitly grant project access to specific users or groups:
+... *Policy enforcement scope*: Enter single IP addresses or IP address ranges to limit project access to only those IP addresses or ranges.
++
+For example: `172.16.0.0/24`
+... *User or group identifiers*: Enter user or group identifiers to limit project access to only those users or groups.
++
+For example: `User1234`
+. Select *Create*. 
+
+.Result
+The project is created, and appears in the list of projects on the Projects page.
+
+== View existing projects
+You can view existing projects created in BlueXP workload factory for Builders by following these steps. 
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. View the existing projects listed on the Projects page.
+
+== Edit a project
+You can edit the settings of a project at any time. 
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, select image:icon-action.png[the option button] for the project you want to edit.
+. Make any needed changes to the project configuration.
+. Select *Save*.
+
+//== Create a snapshot of a project
+//You can create a snapshot of a project by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, select image:icon-action.png[the option button] for the project you want to snapshot.
+. In the resulting menu, select *Create a snapshot*.
+. In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
+
+////
+== Clone a project 
+You can view the databases managed by the managed instance by following these steps. 
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Create project*. 
+. On the Create project page, provide the following:
+.. *Project name*: Enter a name for the project.
+////
+
+//== Create a clone of a project
+//You can use the workload factory API to create a clone of a project.
+
+== View a project's workspaces
+A clone or snapshot of a project is known as a workspace. When you create a workspace, it is retained for as long as the project's operation policy allows. You can view existing workspaces for a project by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, choose a project and select *View*.
+. View the status and details of all workspaces for this project.
+. If you see alerts or warnings for a workspace, hover over the alert or warning icon to see the reason.
+
+== Delete a project
+You can delete a project when it is no longer needed by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, select image:icon-action.png[the option button] for the project you want to delete.
+. Select *Delete*.
+. In the confirmation dialog, select *Delete*.
+
+.Result
+The project is deleted, and any code or artifacts associated with the project are deleted from the volume. Snapshots and clones of the project are retained.
+
+

@@ -1,0 +1,19 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory
+summary: Learn what's new with workload factory for Databases.
+---
+= What's new
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with the Builders capability of workload factory.
+
+== 1 December 2024
+
+include::_whatsnew/2024-12-01.adoc[]
+
+
+
