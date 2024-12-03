@@ -14,6 +14,3 @@ Learn what's new with the Builders capability of workload factory.
 == 1 December 2024
 
 include::_whatsnew/2024-12-01.adoc[]
-
-
-
