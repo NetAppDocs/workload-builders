@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: what's new, features, new, release notes, enhancements, fixes, new features, workload factory, builders, workload factory
 summary: Learn what's new with workload factory for Databases.
 ---
-= What's new
+= What's new with BlueXP workload factory for Builders
 :icons: font
 :imagesdir: ./media/
 
@@ -14,6 +14,3 @@ Learn what's new with the Builders capability of workload factory.
 == 1 December 2024
 
 include::_whatsnew/2024-12-01.adoc[]
-
-
-
