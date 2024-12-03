@@ -4,7 +4,7 @@ permalink: create-workspaces.html
 keywords: manage, workspace, snapshot, project 
 summary: A workspace in BlueXP workload factory for Builders is a Perforce representation of a project that is based off of a project snapshot. You can create workspaces as part of a Builders project.
 ---
-= Create a workspace
+= Create a Builders workspace
 :icons: font
 :imagesdir: ./media/
 
