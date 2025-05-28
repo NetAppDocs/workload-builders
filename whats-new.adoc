@@ -11,6 +11,10 @@ summary: Learn what's new with workload factory for Databases.
 [.lead]
 Learn what's new with the Builders capability of workload factory.
 
+== 29 June 2025
+
+include::_whatsnew/2025-06-29.adoc[]
+
 == 4 May 2025
 
 include::_whatsnew/2025-05-04.adoc[]
