@@ -22,7 +22,7 @@ You can create a snapshot of a project by following these steps.
 . In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
 
 ////
-== Clone a project 
+== Clone a project
 You can clone a Builders project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
 
 .Steps
