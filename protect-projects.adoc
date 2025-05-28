@@ -1,8 +1,8 @@
 ---
 sidebar: sidebar
-permalink: learn-builders.html
-keywords: software builders, development, benefits
-summary: BlueXP workload factory for Builders is a rapid build environment creation tool for software builders. 
+permalink: protect-projects.html
+keywords: snapshot, clone, project, protect
+summary: Protect your Builders projects by creating snapshots and clones. 
 ---
 = Protect BlueXP workload factory for Builders projects
 :icons: font
