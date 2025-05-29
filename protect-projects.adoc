@@ -1,0 +1,42 @@
+---
+sidebar: sidebar
+permalink: protect-projects.html
+keywords: snapshot, clone, project, protect
+summary: Protect your Builders projects by creating snapshots and clones. 
+---
+= Protect BlueXP workload factory for Builders projects
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+Protect your Builders projects by creating on-demand snapshots directly from workload factory. Snapshots of a project are stored in the filesystem that was associated with the project when it was created. 
+
+== Create a snapshot of a project
+You can create a snapshot of a project by following these steps.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, select image:icon-action.png[the option button] for the project you want to snapshot.
+. In the resulting menu, select *Create a snapshot*.
+. In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
+
+////
+== Clone a project
+Clone a Builders project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
+
+.Steps
+. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. In the Builders tile, select *Go to Projects page*. 
+. On the Projects page, select image:icon-action.png[the option button] for the project you want to snapshot.
+. In the resulting menu, select *Create a clone*.
+. In the *Create clone* dialog, do the following:
+.. Enter a name for the clone. 
++
+The default name is the project name with a suffix of the current date and time. 
+.. Select a snapshot to use as the base for the clone.
+.. Select *Create*.
+
+.Result 
+A new project clone is created, and appears in the list of projects on the Projects page.
+////
