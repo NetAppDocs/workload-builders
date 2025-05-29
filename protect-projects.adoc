@@ -9,7 +9,7 @@ summary: Protect your Builders projects by creating snapshots and clones.
 :imagesdir: ./media/
 
 [.lead]
-You can create on-demand snapshots to protect your Builders projects.
+Create on-demand snapshots to protect your Builders projects by following these steps.
 
 == Create a snapshot of a project
 You can create a snapshot of a project by following these steps.
@@ -23,7 +23,7 @@ You can create a snapshot of a project by following these steps.
 
 ////
 == Clone a project
-You can clone a Builders project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
+Clone a Builders project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
