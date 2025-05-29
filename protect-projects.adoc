@@ -9,7 +9,7 @@ summary: Protect your Builders projects by creating snapshots and clones.
 :imagesdir: ./media/
 
 [.lead]
-Create on-demand snapshots to protect your Builders projects by following these steps.
+Protect your Builders projects by creating on-demand snapshots directly from workload factory. Snapshots of a project are stored in the filesystem that was associated with the project when it was created. 
 
 == Create a snapshot of a project
 You can create a snapshot of a project by following these steps.
