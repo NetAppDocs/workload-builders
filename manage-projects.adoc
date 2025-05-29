@@ -64,30 +64,6 @@ You can edit the settings of a project at any time.
 . Make any needed changes to the project configuration.
 . Select *Save*.
 
-//== Create a snapshot of a project
-//You can create a snapshot of a project by following these steps.
-
-.Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Go to Projects page*. 
-. On the Projects page, select image:icon-action.png[the option button] for the project you want to snapshot.
-. In the resulting menu, select *Create a snapshot*.
-. In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
-
-////
-== Clone a project 
-You can view the databases managed by the managed instance by following these steps. 
-
-.Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Create project*. 
-. On the Create project page, provide the following:
-.. *Project name*: Enter a name for the project.
-////
-
-//== Create a clone of a project
-//You can use the workload factory API to create a clone of a project.
-
 == View a project's workspaces
 A clone or snapshot of a project is known as a workspace. When you create a workspace, it is retained for as long as the project's operation policy allows. You can view existing workspaces for a project by following these steps.
 
