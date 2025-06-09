@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
-permalink: clone-projects.html
-keywords: snapshot, clone, project, protect, API
+permalink: version-projects.html
+keywords: snapshot, clone, project, protect, API, version, versions, versioning
 summary: Manage versions of your Builders projects using snapshots and clones. 
 ---
 = Manage versions of BlueXP workload factory for Builders projects

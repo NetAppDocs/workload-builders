@@ -35,8 +35,8 @@ sidebar:
     entries: 
       - title: Manage projects
         url: /manage-projects.html
-      - title: Snapshot and clone projects
-        url: /clone-projects.html
+      - title: Manage project versions
+        url: /version-projects.html
       - title: Create a workspace
         url: /create-workspaces.html
       - title: Automate with Codebox
