@@ -1,6 +1,6 @@
 ---
 sidebar: sidebar
-permalink: protect-projects.html
+permalink: clone-projects.html
 keywords: snapshot, clone, project, protect, API
 summary: Manage versions of your Builders projects using snapshots and clones. 
 ---
