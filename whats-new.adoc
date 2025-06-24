@@ -11,6 +11,7 @@ summary: Learn what's new with workload factory for Databases.
 [.lead]
 Learn what's new with the Builders capability of workload factory.
 
+//tag::whats-new[]
 == 16 June 2025
 
 include::_whatsnew/2025-06-16.adoc[]
@@ -22,3 +23,4 @@ include::_whatsnew/2025-05-04.adoc[]
 == 1 December 2024
 
 include::_whatsnew/2024-12-01.adoc[]
+//end::whats-new[]
