@@ -1,6 +1,5 @@
 settings:
-  name: "Builders workloads"
-  platform: cloud
+  name: "Builders workloads" 
   internal:
     pdf_enabled: true
     termcheck_enabled: true
