@@ -56,7 +56,7 @@ No special licenses are needed from NetApp to use the Builders capabilities of w
 //=== Integrated AWS services
 //Builders includes the following integrated AWS services: 
 
-=== Regions
+== Regions
 Builders is supported in all commercial regions where FSx for ONTAP is supported. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/[View supported Amazon regions.^]
 
 The following AWS regions aren't supported: 
