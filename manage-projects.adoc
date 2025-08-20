@@ -9,7 +9,7 @@ summary: Manage Microsoft SQL Server instances in workload factory for Databases
 :imagesdir: ./media/
 
 [.lead]
-You can manage Builders projects to control how your code and artifacts are managed for each project in BlueXP workload factory for Builders. 
+You can manage Builders projects to control how your code and artifacts are managed for each project in NetApp workload factory for Builders. 
 
 == Create a project
 
@@ -47,7 +47,7 @@ For example: `User1234`
 The project is created, and appears in the list of projects on the Projects page.
 
 == View existing projects
-You can view existing projects created in BlueXP workload factory for Builders by following these steps. 
+You can view existing projects created in NetApp workload factory for Builders by following these steps. 
 
 .Steps
 . Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].

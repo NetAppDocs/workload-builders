@@ -4,7 +4,7 @@ permalink: version-projects.html
 keywords: snapshot, clone, project, protect, API, version, versions, versioning
 summary: Manage versions of your Builders projects using snapshots and clones. 
 ---
-= Manage versions of BlueXP workload factory for Builders projects
+= Manage versions of NetApp workload factory for Builders projects
 :icons: font
 :imagesdir: ./media/
 

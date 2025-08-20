@@ -2,7 +2,7 @@
 sidebar: sidebar
 permalink: requirements-builders.html
 keywords: Builders, FSx, project, projects
-summary: Ensure that workload factory and AWS are set up properly before you begin using BlueXP workload factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
+summary: Ensure that workload factory and AWS are set up properly before you begin using NetApp workload factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
 ---
 
 = Builders requirements
@@ -10,7 +10,7 @@ summary: Ensure that workload factory and AWS are set up properly before you beg
 :imagesdir: ./media/
 
 [.lead]
-Ensure that workload factory and AWS are set up properly before you begin using BlueXP workload factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
+Ensure that workload factory and AWS are set up properly before you begin using NetApp workload factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
 
 Workload factory login and account::
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with workload factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
