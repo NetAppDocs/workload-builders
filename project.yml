@@ -22,7 +22,7 @@ sidebar:
         url: /known-limitations.html 
   - title: Get started
     entries: 
-      - title: Learn about NetApp workload factory for Builders
+      - title: Learn about NetApp Workload Factory for Builders
         url: /learn-builders.html 
       - title: Quick start
         url: /quick-start-builders.html
@@ -68,5 +68,5 @@ sidebar:
     url: /legal-notices.html
 
 product-family:
-  name: NetApp workload factory
+  name: NetApp Workload Factory
   repo: workload-family

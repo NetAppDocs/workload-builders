@@ -2,21 +2,21 @@
 sidebar: sidebar
 permalink: manage-projects.html
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
-summary: Manage Microsoft SQL Server instances in workload factory for Databases. 
+summary: Manage Microsoft SQL Server instances in Workload Factory for Databases. 
 ---
 = Manage Builders projects
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-You can manage Builders projects to control how your code and artifacts are managed for each project in NetApp workload factory for Builders. 
+You can manage Builders projects to control how your code and artifacts are managed for each project in NetApp Workload Factory for Builders. 
 
 == Create a project
 
 You can create a new Builders project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
 
 .Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Create project*. 
 . On the Create project page, provide the following:
 .. *Project name*: Enter a name for the project.
@@ -31,7 +31,7 @@ You can only select filesystems that are configured with a link. https://docs.ne
 +
 You can only select volumes that are configured as an NFS share.
 .. *Operation policies*: Provide limits for project clones:
-... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, workload factory removes the clone.
+... *Maximum retention in days*: Enter the maximum number of days that a clone should be retained. After this number of days, Workload Factory removes the clone.
 ... *Maximum number of clones per user or group*: Enter the maximum number of clones that can be provisioned for a user or group.
 ... *Maximum clone size in GiB*: Enter the maximum size in GiB of a project clone.
 .. *Access policies*: Explicitly grant project access to specific users or groups:
@@ -47,10 +47,10 @@ For example: `User1234`
 The project is created, and appears in the list of projects on the Projects page.
 
 == View existing projects
-You can view existing projects created in NetApp workload factory for Builders by following these steps. 
+You can view existing projects created in NetApp Workload Factory for Builders by following these steps. 
 
 .Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Go to Projects page*. 
 . View the existing projects listed on the Projects page.
 
@@ -58,7 +58,7 @@ You can view existing projects created in NetApp workload factory for Builders b
 You can edit the settings of a project at any time. 
 
 .Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to edit.
 . Make any needed changes to the project configuration.
@@ -68,7 +68,7 @@ You can edit the settings of a project at any time.
 A clone or snapshot of a project is known as a workspace. When you create a workspace, it is retained for as long as the project's operation policy allows. You can view existing workspaces for a project by following these steps.
 
 .Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Go to Projects page*. 
 . On the Projects page, choose a project and select *View*.
 . View the status and details of all workspaces for this project.
@@ -78,7 +78,7 @@ A clone or snapshot of a project is known as a workspace. When you create a work
 You can delete a project when it is no longer needed by following these steps.
 
 .Steps
-. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . In the Builders tile, select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to delete.
 . Select *Delete*.
