@@ -19,11 +19,11 @@ Integrate Builders with the Perforce Helix Visual Client (P4V) so that developer
 . Go to *View* > *Workload Factory*.
 
 .Result
-The BlueXP workload factory for Builders web UI appears as an HTML tab within the P4V client.
+The NetApp Workload Factory for Builders web UI appears as an HTML tab within the P4V client.
 
-//. Log in to workload factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+//. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 //. Optionally, select *Go to P4v integration demo* to be guided through the integration process with an instructional video.
-//. Follow the instructions to integrate workload factory for Builders with the Perforce Helix Visual Client.
+//. Follow the instructions to integrate Workload Factory for Builders with the Perforce Helix Visual Client.
 //. When you are done, select *OK*.
 
 .What's next?

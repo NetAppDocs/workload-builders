@@ -2,26 +2,26 @@
 sidebar: sidebar
 permalink: learn-builders.html
 keywords: software builders, development, benefits
-summary: BlueXP workload factory for Builders is a rapid build environment creation tool for software builders. 
+summary: NetApp Workload Factory for Builders is a rapid build environment creation tool for software builders. 
 ---
-= Learn about BlueXP workload factory for Builders
+= Learn about NetApp Workload Factory for Builders
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-BlueXP workload factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
+NetApp Workload Factory for Builders is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using Builders, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
 
-== What is BlueXP workload factory for Builders?
-BlueXP workload factory for Builders is designed to streamline the way developers manage and interact with different versions of their software. Builders integrates seamlessly with Perforce Helix Core to provide instant clones of software versions, creating ready-to-use workspaces for development, QA, and CI/CD processes. 
+== What is NetApp Workload Factory for Builders?
+NetApp Workload Factory for Builders is designed to streamline the way developers manage and interact with different versions of their software. Builders integrates seamlessly with Perforce Helix Core to provide instant clones of software versions, creating ready-to-use workspaces for development, QA, and CI/CD processes. 
 
 With Builders, you can easily create a project and assign a volume that represents your software environment and its artifacts. As you update your software, you can take snapshots of the volume, capturing the state of your software at that moment. This means you can access any version of your software instantly without the need to resync with the version control system, saving valuable time and resources.
 
 By leveraging ONTAP's snapshot and clone capabilities, Builders enhances your development workflow, allowing for rapid access to multiple versions of your software, accelerating development cycles, and helping to reduce time to market.
 
-For more information about workload factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[workload factory overview^].
+For more information about Workload Factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[Workload Factory overview^].
 
-== BlueXP workload factory for Builders features
-BlueXP workload factory for Builders offers the following features:
+== NetApp Workload Factory for Builders features
+NetApp Workload Factory for Builders offers the following features:
 
 * Create, edit, and remove projects
 * Create snapshots of defined software versions
@@ -35,28 +35,28 @@ BlueXP workload factory for Builders offers the following features:
 When you use Builders, you create a project and assign a volume that represents your software environment and its artifacts. Each time that you create a new version of the software, you need resync the volume data and create a project snapshot to mark the volume state as a known version. The project source volume might get rolling updates and have multiple snapshots to mark multiple versions. You can use each snapshot immediately as an instant clone, a dedicated or shared editable repository available to developers, QA or build processes. A clone in the context of a specific software version is a workspace.
  
 
-== Operational modes in workload factory
-Three different operational modes - _basic_, _read-only_ and _read/write_ - offer flexible options for deployment inside and outside of workload factory. Gain immediate value at zero-trust in _basic_ mode with code snippets for use outside workload factory. Get incremental value with incremental trust in _read-only_ and _read/write_ modes. 
+== Operational modes in Workload Factory
+Three different operational modes - _basic_, _read-only_ and _read/write_ - offer flexible options for deployment inside and outside of Workload Factory. Gain immediate value at zero-trust in _basic_ mode with code snippets for use outside Workload Factory. Get incremental value with incremental trust in _read-only_ and _read/write_ modes. 
 
-Learn more about link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[operational modes in workload factory^].
+Learn more about link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html[operational modes in Workload Factory^].
 
-== Automation with workload factory Codebox
+== Automation with Workload Factory Codebox
 Workload factory introduces built-in automation with the _Codebox_. The Codebox offers the following automation benefits: 
 
 * *Code snippet generation*: Infrastructure-as-Code (IaC) snippets are generated during resource creation, enabling seamless integration with existing orchestration workflows. 
-* *Infrastructure-as-code co-pilot*: the Codebox is an Infrastructure-as-code (IaC) co-pilot that helps developers and DevOps generate code to execute any operation supported by workload factory.  
+* *Infrastructure-as-code co-pilot*: the Codebox is an Infrastructure-as-code (IaC) co-pilot that helps developers and DevOps generate code to execute any operation supported by Workload Factory.  
 * *Code viewer and automation catalog*: the Codebox provides a code viewer for quick analysis of automation and an automation catalog for quick future re-use. 
 
 == Cost
-There is no cost for using the Builders capability of workload factory.
+There is no cost for using the Builders capability of Workload Factory.
 
 == Licensing
-No special licenses are needed from NetApp to use the Builders capabilities of workload factory.
+No special licenses are needed from NetApp to use the Builders capabilities of Workload Factory.
 
 //=== Integrated AWS services
 //Builders includes the following integrated AWS services: 
 
-=== Supported regions
+== Regions
 Builders is supported in all commercial regions where FSx for ONTAP is supported. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/[View supported Amazon regions.^]
 
 The following AWS regions aren't supported: 
@@ -69,4 +69,4 @@ The following AWS regions aren't supported:
 == Getting help
 Amazon FSx for NetApp ONTAP is an AWS first-party solution. For questions or technical support issues associated with your FSx for ONTAP file system, infrastructure, or any solution using this service, use the Support Center in your AWS Management Console to open a support case with AWS. Select the “FSx for ONTAP” service and appropriate category. Provide the remaining information required to create your AWS support case.
 
-For general questions about workload factory or workload factory applications and services, refer to link:get-help-builders.html[Get help for Builders for workload factory].
+For general questions about Workload Factory or Workload Factory applications and services, refer to link:get-help-builders.html[Get help for Builders for Workload Factory].
