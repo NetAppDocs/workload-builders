@@ -5,7 +5,7 @@ keywords: limitations, builders
 summary: Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 ---
 
-= Known limitations of BlueXP workload factory for Builders
+= Known limitations of NetApp Workload Factory for Builders
 :icons: font
 :imagesdir: ./media/
 
@@ -13,5 +13,5 @@ summary: Known limitations identify platforms, devices, or functions that are no
 Known limitations identify platforms, devices, or functions that are not supported by this release of the product, or that do not interoperate correctly with it. Review these limitations carefully.
 
 == Operator permissions required
-BlueXP workload factory for Builders requires Operator permissions to function correctly.
+NetApp Workload Factory for Builders requires Operator permissions to function correctly.
 
