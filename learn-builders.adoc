@@ -16,7 +16,7 @@ NetApp Workload Factory for Builders is designed to streamline the way developer
 
 With Builders, you can easily create a project and assign a volume that represents your software environment and its artifacts. As you update your software, you can take snapshots of the volume, capturing the state of your software at that moment. This means you can access any version of your software instantly without the need to resync with the version control system, saving valuable time and resources.
 
-By leveraging ONTAP's snapshot and clone capabilities, Builders enhances your development workflow, allowing for rapid access to multiple versions of your software, accelerating development cycles, and helping to reduce time to market.
+Using the snapshot and clone capabilities of NetApp ONTAP, Builders enhances your development workflow by enabling rapid access to multiple versions of your software, accelerating development cycles, and helping to reduce time to market.
 
 For more information about Workload Factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[Workload Factory overview^].
 
@@ -34,7 +34,6 @@ NetApp Workload Factory for Builders offers the following features:
 == Projects and workspaces in Builders
 When you use Builders, you create a project and assign a volume that represents your software environment and its artifacts. Each time that you create a new version of the software, you need resync the volume data and create a project snapshot to mark the volume state as a known version. The project source volume might get rolling updates and have multiple snapshots to mark multiple versions. You can use each snapshot immediately as an instant clone, a dedicated or shared editable repository available to developers, QA or build processes. A clone in the context of a specific software version is a workspace.
  
-
 == Permission policies in Workload Factory
 Workload Factory offers flexible permission options. Gain immediate value at zero-trust without granting permissions using code snippets from the Codebox for use outside Workload Factory. Get incremental value with permission policies that build on top of one another starting with resource detection and analysis, then operations and remediation, and then deployment inside Workload Factory.  
 

@@ -21,9 +21,9 @@ You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.h
 
 [role="quick-margin-para"]
 Choose the permission policies to meet your needs.
-
+[role="quick-margin-para"]
 If you choose not to grant permissions, you can start using Workload Factory for Builders to copy partially completed code samples.
-
+[role="quick-margin-para"]
 If you choose to grant permissions, you'll need to add credentials to an account manually that includes selecting workload capabilities, such as Builders and AI, and creating the IAM policies for the required permissions.
 
 [role="quick-margin-para"]
