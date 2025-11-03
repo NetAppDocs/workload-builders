@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar
 permalink: quick-start-builders.html  
-keywords: requirements, Basic mode, Read-only mode, Read/Write mode 
+keywords: requirements, permissions
 summary: Databases has three different modes that have different requirements. 
 ---
 
