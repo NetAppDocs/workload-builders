@@ -17,10 +17,14 @@ Get started creating a Builders project. Administrators and team leads can use B
 [role="quick-margin-para"]
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Add AWS credentials and permissions to your account
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png[Two] Add credentials and permissions
 
 [role="quick-margin-para"]
-You can use Workload Factory in _Basic_ mode without adding credentials to access your AWS account. Adding AWS credentials to Workload Factory in either _read-only_ or _read/write_ mode gives your Workload Factory account the permissions needed to create and manage FSx for ONTAP file systems, and to deploy and manage Builders projects.
+Choose the permission policies to meet your needs.
+
+If you choose not to grant permissions, you can start using Workload Factory for Builders to copy partially completed code samples.
+
+If you choose to grant permissions, you'll need to add credentials to an account manually that includes selecting workload capabilities, such as Builders and AI, and creating the IAM policies for the required permissions.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add credentials and permissions^].
