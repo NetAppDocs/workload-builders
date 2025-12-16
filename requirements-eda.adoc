@@ -1,22 +1,22 @@
 ---
 sidebar: sidebar
 permalink: requirements-builders.html
-keywords: Builders, FSx, project, projects
-summary: Ensure that Workload Factory and AWS are set up properly before you begin using NetApp Workload Factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
+keywords: Builders, FSx, project, projects. eda, electronic design automation, requirements, setup, workload factory
+summary: Ensure that Workload Factory and AWS are set up properly before you begin using NetApp Workload Factory for EDA. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
 ---
 
-= Builders requirements
+= EDA requirements
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Ensure that Workload Factory and AWS are set up properly before you use NetApp Workload Factory for Builders. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
+Ensure that Workload Factory and AWS are set up properly before you use NetApp Workload Factory for EDA. This includes having your AWS log in credentials, a deployed FSx for ONTAP file system, and more.
 
 Workload factory login and account::
 You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html[set up an account with Workload Factory^] and log in using one of the https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 
 AWS credentials and permissions::
-You need to add AWS credentials to Workload Factory with read/write permissions, which means you'll be using Workload Factory in _read/write_ mode for Builders.
+You need to add AWS credentials to Workload Factory with read/write permissions, which means you'll be using Workload Factory in _read/write_ mode for EDA.
 
 _Basic_ mode and _read-only_ mode permissions are not supported at this time.
 
@@ -25,7 +25,7 @@ https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn ho
 FSx for ONTAP file system::
 You need a minimum of one FSx for ONTAP file system:
 
-* The file system will be used by Builders to store the projects and workspaces that you create. 
+* The file system will be used by EDA to store the projects and workspaces that you create. 
 +
 This FSx for ONTAP file system must use FlexVol volumes. FlexGroup volumes are not supported.
 

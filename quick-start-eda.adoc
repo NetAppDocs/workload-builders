@@ -1,16 +1,16 @@
 ---
 sidebar: sidebar
 permalink: quick-start-builders.html  
-keywords: requirements, permissions
+keywords: requirements, permissions, eda, builders, quick start, electronic design automation
 summary: Databases has three different modes that have different requirements. 
 ---
 
-= Quick start for Builders
+= Quick start for EDA
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Get started creating a Builders project. Administrators and team leads can use Builders to administer projects and workspaces for teams of developers.
+Get started creating an EDA project. Administrators and team leads can use EDA to administer projects and workspaces for teams of developers.
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png[One] Log in to Workload Factory
 
@@ -22,28 +22,28 @@ You'll need to https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.h
 [role="quick-margin-para"]
 Choose the permission policies to meet your needs.
 [role="quick-margin-para"]
-If you choose not to grant permissions, you can start using Workload Factory for Builders to copy partially completed code samples.
+If you choose not to grant permissions, you can start using Workload Factory for EDA to copy partially completed code samples.
 [role="quick-margin-para"]
-If you choose to grant permissions, you'll need to add credentials to an account manually that includes selecting workload capabilities, such as Builders and AI, and creating the IAM policies for the required permissions.
+If you choose to grant permissions, you'll need to add credentials to an account manually that includes selecting workload capabilities, such as EDA and AI, and creating the IAM policies for the required permissions.
 
 [role="quick-margin-para"]
 https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html[Learn how to add credentials and permissions^].
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Set up your environment to meet Builders requirements
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png[Three] Set up your environment to meet EDA requirements
 
 [role="quick-margin-para"]
 You'll need a deployed and discovered FSx for ONTAP file system that contains at least one volume that has been configured as an NFS share.
 
 [role="quick-margin-para"]
-link:requirements-builders.html[Learn more about Builders requirements^].
+link:requirements-builders.html[Learn more about EDA requirements^].
 
 .image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png[Four] Integrate with other services
 
 [role="quick-margin-para"]
-Integrate Builders with other services such as a service portal or Perforce Helix Core using the workload Factory REST API.
+Integrate EDA with other services such as a service portal or Perforce Helix Core using the workload Factory REST API.
 
 [role="quick-margin-para"]
-link:integrate-perforce.html[Learn how to integrate Builders with Perforce^].
+link:integrate-perforce.html[Learn how to integrate EDA with Perforce^].
 
 .What's next
 

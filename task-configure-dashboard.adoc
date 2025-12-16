@@ -1,0 +1,26 @@
+---
+sidebar: sidebar
+permalink: task-configure-dashboard.html
+keywords: configure, dashboard, AWS tags, CloudWatch, FSx for ONTAP, Workload Factory, EDA, electronic design automation
+summary: Configure your EDA dashboard by adding tags to collect metrics. 
+---
+= Configure your dashboard
+:icons: font
+:imagesdir: ./media/
+
+[.lead]
+You can customize your dashboard by adding AWS tags to your FSx for ONTAP volumes to collect CloudWatch metrics in the dashboard. Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
+
+AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by purpose, owner, or environment. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html [What are tags?^] and https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html [AWS Resource Groups Tagging API Reference^].
+
+== Configure the dashboard
+
+.Steps
+. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. On the right, select *Workloads* and then *EDA*. 
++
+If you have not already configured your dashboard, you are automatically prompted to do so.
+. For each Filter label name, add an AWS tag key name.
+. Select *Apply*.
+. To edit the dashboard configuration later, on the top right select *Configure*.
+. To view your changes after applying any tags or filters, select the refresh icon on the dashboard.
