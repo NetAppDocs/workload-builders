@@ -48,17 +48,18 @@ When you have selected your required filters, select the refresh icon to update 
 
 You can configure the dashboard by adding AWS tags to your FSx for ONTAP volumes to collect CloudWatch metrics in the dashboard. This allows you organize, track costs, and filter resources based on your organizational needs.
 
-For details, see Configure the dashboard.
+For details, see link:task-configure-dashboard.html[Configure the dashboard].
 
 == NetApp Workload Factory for EDA features
 NetApp Workload Factory for EDA offers the following features:
-* Create, edit, and remove projects
-* Create snapshots of defined software versions
-* Create, and delete workspaces (based on clones)
-* Create access policies to control access to a project
-* Analyze the capacity usage of each project
-* Control clone size limits and clone retention for each project
-* Integrate with version control systems such as Perforce
+
+* Create, edit, and remove projects.
+* Create snapshots of defined software versions.
+* Create, and delete workspaces (based on clones).
+* Create access policies to control access to a project.
+* Analyze the capacity usage of each project.
+* Control clone size limits and clone retention for each project.
+* Integrate with version control systems such as Perforce.
 
 == Projects and workspaces in EDA
 When you use EDA, you create a project and assign a volume that represents your software environment and its artifacts. Each time that you create a new version of the software, you need resync the volume data and create a project snapshot to mark the volume state as a known version. The project source volume might get rolling updates and have multiple snapshots to mark multiple versions. You can use each snapshot immediately as an instant clone, a dedicated or shared editable repository available to developers, QA or build processes. A clone in the context of a specific software version is a workspace.

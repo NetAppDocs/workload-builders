@@ -12,6 +12,8 @@ indexpage:
           url: /quick-start-eda.html
     - title: Use EDA
       links:
+        - title: Configure the dashboard
+          url: /task-configure-dashboard.html
         - title: Manage projects
           url: /manage-projects.html
         - title: Create a workspace
