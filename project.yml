@@ -32,6 +32,8 @@ sidebar:
         url: /integrate-perforce.html
   - title: Use EDA workloads
     entries: 
+      - title: Configure the dashboard
+        url: /configure-dashboard.html
       - title: Manage projects
         url: /manage-projects.html
       - title: Manage project versions
