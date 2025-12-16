@@ -1,17 +1,21 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: what's new, features, new, release notes, enhancements, fixes, new features, Workload Factory, builders, Workload Factory
-summary: Learn what's new with Workload Factory for Databases.
+keywords: what's new, features, new, release notes, enhancements, fixes, new features, Workload Factory, builders, Workload Factory, EDA, electronic design automation
+summary: Learn what's new with Workload Factory for EDA.
 ---
-= What's new with NetApp Workload Factory for Builders
+= What's new with NetApp Workload Factory for EDA
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-Learn what's new with the Builders capability of Workload Factory.
+Learn what's new with the EDA capability of Workload Factory.
 
 //tag::whats-new[]
+== 4 Jan 2026
+
+include::_whatsnew/2025-10-05.adoc[]
+
 == 5 October 2025
 
 include::_whatsnew/2025-10-05.adoc[]

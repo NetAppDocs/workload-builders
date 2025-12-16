@@ -1,17 +1,19 @@
 indexpage:
-  title: NetApp Workload Factory for Builders documentation
+  title: NetApp Workload Factory for EDA documentation
   lead: Create and manage software development projects on top of FSx for ONTAP file system storage in NetApp Workload Factory.
   tiles: 
     - title: Get started
       links:
         - title: Release notes
           url: /whats-new.html
-        - title: Learn about Builders
-          url: /learn-builders.html
+        - title: Learn about EDA
+          url: /learn-eda.html
         - title: Quick start
-          url: /quick-start-builders.html
-    - title: Use Builders
+          url: /quick-start-eda.html
+    - title: Use EDA
       links:
+        - title: Configure the dashboard
+          url: /task-configure-dashboard.html
         - title: Manage projects
           url: /manage-projects.html
         - title: Create a workspace
@@ -23,7 +25,7 @@ indexpage:
         - title: Register for support
           url: /support-registration.html
         - title: Get help
-          url: /get-help-builders.html
+          url: /get-help-eda.html
     - title: Blogs & community
       links:
         - title: NetApp Console
