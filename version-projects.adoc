@@ -22,7 +22,7 @@ You can create a snapshot of a project by following these steps.
 . In the *Create snapshot* dialog, choose a name for the snapshot and select *Create*.
 
 == Create a clone of a project
-Clone a EDA project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
+Clone an EDA project from a snapshot by following these steps. When you create a clone, a new editable volume is created to contain the clone.
 
 .Steps
 . Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
