@@ -4,23 +4,50 @@ permalink: task-configure-dashboard.html
 keywords: configure, dashboard, AWS tags, CloudWatch, FSx for ONTAP, Workload Factory, EDA, electronic design automation
 summary: Configure your EDA dashboard by adding tags to collect metrics. 
 ---
-= Configure your dashboard
+= Use the dashboard
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-You can customize your dashboard by adding AWS tags to your FSx for ONTAP volumes to collect CloudWatch metrics in the dashboard. Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
+When you first sign in to EDA, you can use the project dashboard to monitor system activities at a glance.
 
-AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by purpose, owner, or environment. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
+The dashboard contains information about system health and performance and storage use. 
 
-== Configure the dashboard
+For an explanation of the information shown on each card, select the information icon for that card.
+
+=== Configure the dashboard
+
+To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes. When they are configured add them to your dashboard to collect CloudWatch metrics. 
+
+The metrics collected include:
+
+* Total provisioned 
+* Total used
+* Average throughput 
+* Average IOPS 
+
+Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
+
+AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
 
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
 +
 If you have not already configured your dashboard, you are automatically prompted to do so.
-. For each Filter label name, add an AWS tag key name.
+. For each filter required, add a filter label name and the AWS tag key name you want to associate with it.
 . Select *Apply*.
 . To edit the dashboard configuration later, select *Configure*.
 . To view your changes after applying any tags or filters, select the refresh icon on the dashboard.
+
+=== Filter the dashboard
+
+You can filter the information displayed on the dashboard by selecting one or all of the following:
+
+* File system
+* Volume type
+* Business unit
+* Project
+* Specific time range
+
+When you have selected your required filters, select the refresh icon to update the dashboard information.

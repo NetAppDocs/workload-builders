@@ -2,95 +2,20 @@
 sidebar: sidebar
 permalink: learn-eda.html
 keywords: software builders, development, benefits, eda, electronic design automation
-summary: NetApp Workload Factory for EDA is a rapid build environment creation tool for software builders. 
+summary: NetApp Workload Factory for EDA helps you optimize FSx for ONTAP usage performance. 
 ---
 = Learn about NetApp Workload Factory for EDA
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-NetApp Workload Factory for Electronic Design Automation (EDA) is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using EDA, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
 
-== What is NetApp Workload Factory for EDA?
-NetApp Workload Factory for EDA is designed to streamline the way developers manage and interact with different versions of their software. EDA works with Perforce Helix Core to instantly clone software versions and create workspaces for development, QA, and CI/CD.
+Workload Factory for EDA helps you optimize FSx for ONTAP usage performance, prevent capacity constraints, and automate storage provisioning by integrating it with Infrastructure as Code (IaC), ensuring consistent and reliable use by workloads.
 
-EDA offers the following key benefits: 
+Workload Factory for EDA includes a dashboard that provides a centralized view of your FSx for ONTAP file systems and volumes used for EDA workloads. The dashboard helps you monitor system health, performance, and storage usage, enabling you to optimize your EDA environment effectively by reducing simulation time and overall time to market.
+
+It offers the following key benefits: 
 
 * It streamlines the management of multiple FSx for ONTAP file systems for EDA workloads. 
 * It offers centralized views, analysis, and tools to help you optimize storage operations, enhance performance, and maintain operational health across AWS regions and file systems. 
 * It reduces job runtime and accelerates time to market. 
-
-With EDA, you can easily create a project and assign a volume that represents your software environment and its artifacts. As you update your software, you can take snapshots of the volume, capturing the state of your software at that moment. You can access any software version instantly without resyncing, saving time and resources.
-
-Using the snapshot and clone capabilities of NetApp ONTAP, EDA makes it faster to access different versions of your software, so you can develop and release updates more quickly.
-For more information about Workload Factory, refer to the link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html[Workload Factory overview^].
-
-== NetApp Workload Factory for EDA dashboard
-When you first sign in to EDA, you can use the dashboard to monitor system activities at a glance.
-
-The dashboard contains information about system health and performance, storage use, ???, and ???. 
-
-For an explanation of the information shown on each card, select the information icon for that card.
-
-=== Filtering the dashboard
-
-You can filter the information displayed on the dashboard by selecting one or all of the following:
-
-* File system
-* Volume type
-* Business unit
-* Project
-* Specific time range
-
-When you have selected your required filters, select the refresh icon to update the dashboard information.
-
-=== Configuring the dashboard
-
-You can configure the dashboard by adding AWS tags to your FSx for ONTAP volumes to collect CloudWatch metrics in the dashboard. This allows you organize, track costs, and filter resources based on your organizational needs.
-
-For details, see link:task-configure-dashboard.html[Configure the dashboard].
-
-== NetApp Workload Factory for EDA features
-NetApp Workload Factory for EDA offers the following features:
-
-* Create, edit, and remove projects.
-* Create snapshots of defined software versions.
-* Create, and delete workspaces (based on clones).
-* Create access policies to control access to a project.
-* Analyze the capacity usage of each project.
-* Control clone size limits and clone retention for each project.
-* Integrate with version control systems such as Perforce.
-
-== Projects and workspaces in EDA
-When you use EDA, you create a project and assign a volume that represents your software environment and its artifacts. Each time that you create a new version of the software, you need resync the volume data and create a project snapshot to mark the volume state as a known version. The project source volume might get rolling updates and have multiple snapshots to mark multiple versions. You can use each snapshot immediately as an instant clone, a dedicated or shared editable repository available to developers, QA or build processes. A clone in the context of a specific software version is a workspace.
- 
-== Automation with Workload Factory Codebox
-Workload factory introduces built-in automation with the _Codebox_. The Codebox offers the following automation benefits: 
-
-* *Code snippet generation*: Infrastructure-as-Code (IaC) snippets are generated during resource creation, enabling seamless integration with existing orchestration workflows. 
-* *Infrastructure-as-code co-pilot*: the Codebox is an Infrastructure-as-code (IaC) co-pilot that helps developers and DevOps generate code to execute any operation supported by Workload Factory.  
-* *Code viewer and automation catalog*: the Codebox provides a code viewer for quick analysis of automation and an automation catalog for quick future re-use. 
-
-== Cost
-There is no cost for using the EDA capability of Workload Factory.
-
-== Licensing
-No special licenses are needed from NetApp to use the EDA capabilities of Workload Factory.
-
-//=== Integrated AWS services
-//EDA includes the following integrated AWS services: 
-
-== Regions
-EDA is supported in all commercial regions where FSx for ONTAP is supported. https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/[View supported Amazon regions.^]
-
-The following AWS regions aren't supported: 
-
-* China regions
-* GovCloud (US) regions
-* Secret Cloud
-* Top Secret Cloud
-
-== Getting help
-Amazon FSx for NetApp ONTAP is an AWS first-party solution. For support, use the Support Center in your AWS Management Console to open a case. Select "FSx for ONTAP" and the category, then provide the required information.
-
-For general questions about Workload Factory or Workload Factory applications and services, refer to link:get-help-eda.html[Get help for EDA for Workload Factory].

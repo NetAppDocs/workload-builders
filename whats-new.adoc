@@ -14,7 +14,7 @@ Learn what's new with the EDA capability of Workload Factory.
 //tag::whats-new[]
 == 4 Jan 2026
 
-include::_whatsnew/2025-10-05.adoc[]
+include::_whatsnew/2026-01-04.adoc[]
 
 == 5 October 2025
 

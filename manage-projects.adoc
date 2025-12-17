@@ -15,8 +15,10 @@ You can manage EDA projects to control how your code and artifacts are managed f
 
 You can create a new EDA project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
 .Steps
+
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
 . Select *Create project*.  
 . On the Create project page, provide the following:
 .. *Project name*: Enter a name for the project.
@@ -52,6 +54,7 @@ You can view existing projects created in NetApp Workload Factory for EDA by fol
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
 . Select *Go to Projects page*. 
 . View the existing projects listed on the Projects page.
 
@@ -61,6 +64,7 @@ You can edit the settings of a project at any time.
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
 . Select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to edit.
 . Make any needed changes to the project configuration.
@@ -72,6 +76,7 @@ A clone or snapshot of a project is known as a workspace. When you create a work
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
 . Select *Go to Projects page*. 
 . On the Projects page, choose a project and select *View*.
 . View the status and details of all workspaces for this project.
@@ -83,6 +88,7 @@ You can delete a project when it is no longer needed by following these steps.
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
 . Select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to delete.
 . Select *Delete*.
