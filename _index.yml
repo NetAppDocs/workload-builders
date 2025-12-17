@@ -20,14 +20,8 @@ indexpage:
           url: /learn-eda-workloads.html
         - title: Requirements
           url: /requirements-eda.html 
-        - title: Manage projects
-          url: /manage-projects.html
-        - title: Manage project versions
-          url: /version-projects.html
-        - title: Create a workspace
-          url: /create-workspaces.html
-        - title: Integrate with Perforce
-          url: /integrate-perforce.html
+        - title: Automate with Codebox
+          url: /automate-codebox.html
     - title: Knowledge and support
       links:
         - title: Register for support
