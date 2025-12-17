@@ -16,11 +16,11 @@ AWS tags are metadata for your AWS resources. They help you categorize your AWS 
 == Configure the dashboard
 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. On the right, select *Workloads* and then *EDA*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
 +
 If you have not already configured your dashboard, you are automatically prompted to do so.
 . For each Filter label name, add an AWS tag key name.
 . Select *Apply*.
-. To edit the dashboard configuration later, on the top right select *Configure*.
+. To edit the dashboard configuration later, select *Configure*.
 . To view your changes after applying any tags or filters, select the refresh icon on the dashboard.
