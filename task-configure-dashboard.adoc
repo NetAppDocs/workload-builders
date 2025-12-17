@@ -11,9 +11,7 @@ summary: Configure your EDA dashboard by adding tags to collect metrics.
 [.lead]
 When you first sign in to EDA, you can use the project dashboard to monitor system activities at a glance.
 
-The dashboard contains information about system health and performance and storage use. 
-
-For an explanation of the information shown on each card, select the information icon for that card.
+The dashboard helps you monitor system health, performance, and storage usage, enabling you to optimize your EDA environment effectively. 
 
 === Configure the dashboard
 
@@ -51,3 +49,5 @@ You can filter the information displayed on the dashboard by selecting one or al
 * Specific time range
 
 When you have selected your required filters, select the refresh icon to update the dashboard information.
+
+For an explanation of the information shown on a card, select the information icon for that card.
