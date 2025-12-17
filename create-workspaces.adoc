@@ -22,9 +22,10 @@ Ensure you have integrated EDA with the Perforce Helix Visual Client. See link:i
 . In the Perforce menu, select *View* > *WF*.
 +
 The Workload Factory login screen appears within the Perforce UI.
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the EDA workloads tile, select *Create project*.
-. Select *Create workspace*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Create project* and then select *Create workspace*. 
 . On the Create a workspace project page, provide the following:
 .. Select a snapshot to use as a basis for the workspace.
 .. Enter a name for the workspace.

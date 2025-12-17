@@ -1,25 +1,33 @@
 indexpage:
   title: NetApp Workload Factory for EDA documentation
-  lead: Create and manage software development projects on top of FSx for ONTAP file system storage in NetApp Workload Factory.
+  lead: Streamline your EDA storage operations in NetApp Workload Factory by optimizing performance, integrating with your IaC to automate storage parameters, and ensuring operational health.
   tiles: 
     - title: Get started
       links:
         - title: Release notes
           url: /whats-new.html
-        - title: Learn about EDA
-          url: /learn-eda.html
         - title: Quick start
           url: /quick-start-eda.html
-    - title: Use EDA
+    - title: Use the project dashboard
       links:
+        - title: Learn about the dashboard
+          url: /learn-dashboard.html
         - title: Configure the dashboard
           url: /task-configure-dashboard.html
+    - title: Use CI/CD workloads
+      links:
+        - title: Learn about CI/CD workloads
+          url: /learn-eda-workloads.html
+        - title: Requirements
+          url: /requirements-eda.html 
         - title: Manage projects
           url: /manage-projects.html
+        - title: Manage project versions
+          url: /version-projects.html
         - title: Create a workspace
           url: /create-workspaces.html
-        - title: Automate with Codebox
-          url: /automate-codebox.html
+        - title: Integrate with Perforce
+          url: /integrate-perforce.html
     - title: Knowledge and support
       links:
         - title: Register for support
