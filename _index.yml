@@ -12,7 +12,7 @@ indexpage:
           url: /quick-start-eda.html
     - title: Use the project dashboard
       links:
-        - title: Configure the dashboard
+        - title: Use the dashboard
           url: /task-configure-dashboard.html
     - title: Use CI/CD workloads
       links:
