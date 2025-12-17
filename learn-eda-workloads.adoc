@@ -1,4 +1,4 @@
---
+---
 sidebar: sidebar
 permalink: learn-eda-workloads.html
 keywords: software builders, development, benefits, eda, electronic design automation
