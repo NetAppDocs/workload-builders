@@ -6,12 +6,12 @@ indexpage:
       links:
         - title: Release notes
           url: /whats-new.html
+        - title: Learn about NetApp Workload Factory for EDA
+          url: /learn-eda.html
         - title: Quick start
           url: /quick-start-eda.html
     - title: Use the project dashboard
       links:
-        - title: Learn about the dashboard
-          url: /learn-dashboard.html
         - title: Configure the dashboard
           url: /task-configure-dashboard.html
     - title: Use CI/CD workloads

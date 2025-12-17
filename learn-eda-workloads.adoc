@@ -1,3 +1,9 @@
+--
+sidebar: sidebar
+permalink: learn-eda-workloads.html
+keywords: software builders, development, benefits, eda, electronic design automation
+summary: Learn how to use CI/CD in NetApp Workload Factory for EDA. 
+---
 = Learn about CI/CD in NetApp Workload Factory for EDA
 :icons: font
 :imagesdir: ./media/
