@@ -15,7 +15,11 @@ The dashboard helps you monitor system health, performance, and storage usage, e
 
 === Configure the dashboard
 
-To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes. When they are configured add them to your dashboard to collect CloudWatch metrics. 
+To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes. When they are configured, add them to your dashboard and begin collecting CloudWatch metrics. 
+
+AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
+
+Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
 
 The metrics collected include:
 
@@ -23,10 +27,6 @@ The metrics collected include:
 * Total used
 * Average throughput 
 * Average IOPS 
-
-Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
-
-AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
 
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
