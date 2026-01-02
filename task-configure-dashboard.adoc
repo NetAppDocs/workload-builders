@@ -9,13 +9,13 @@ summary: Configure your EDA dashboard by adding tags to collect metrics.
 :imagesdir: ./media/
 
 [.lead]
-When you first sign in to EDA, you can use the project dashboard to monitor system activities at a glance.
+When you first sign in to EDA, you can use the project dashboard to observe volume usage across your FSx for ONTAP file systems.
 
-The dashboard helps you monitor system health, performance, and storage usage, enabling you to optimize your EDA environment effectively. 
+The dashboard helps you monitor storage usage for capacity allocated, capacity used, throughput, and IOPS. 
 
 === Configure the dashboard
 
-To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes. When they are configured, add them to your dashboard and begin collecting CloudWatch metrics. 
+To effectively use the dashboard, first configure AWS tags on your FSx for ONTAP volumes based on your business requirements. When they are configured, add them to your dashboard to begin collecting and viewing CloudWatch metrics.
 
 AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
 
@@ -23,10 +23,10 @@ Your dashboard becomes a dynamic tool for organizing, tracking costs, and filter
 
 The metrics collected include:
 
-* Total provisioned 
-* Total used
-* Average throughput 
-* Average IOPS 
+* Total provisioned: Volume-level metric representing the StorageCapacity.
+* Total used: Volume-level metric representing the StorageUsed.
+* Average throughput: Calculated as the average of the sum of DataReadBytes and DataWriteBytes over the specified time period.
+* Average IOPS: Calculated as the average of the sum of DataReadOperations, DataWriteOperations, and MetadataOperations over the specified time period.
 
 .Steps
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
@@ -42,11 +42,11 @@ If you have not already configured your dashboard, you are automatically prompte
 
 You can filter the information displayed on the dashboard by selecting one or all of the following:
 
+* Credentials
+* Region
 * File system
 * Volume type
-* Business unit
-* Project
-* Specific time range
+* Time range
 
 When you have selected your required filters, select the refresh icon to update the dashboard information.
 

@@ -1,14 +1,17 @@
 ---
 sidebar: sidebar
 permalink: learn-eda-workloads.html
-keywords: software builders, development, benefits, eda, electronic design automation
-summary: Learn how to use CI/CD in NetApp Workload Factory for EDA. 
+keywords: software builders, development, benefits, eda, electronic design automation, perforce integration, ci, cd
+summary: Learn how to use Perforce integration in NetApp Workload Factory for EDA. 
 ---
-= Learn about CI/CD in NetApp Workload Factory for EDA
+= Learn about Perforce integration in NetApp Workload Factory for EDA
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
+
+Integrating Perforce with CI/CD pipelines enhances the development process by automating builds, tests, and deployments, leading to faster and more reliable software delivery.
+
 Continuous Integration and Continuous Deployment (CI/CD) in EDA is a rapid build environment creation tool for software builders. It enables fast setup of personal development environments, saving time and enabling self-service for developers while empowering DevOps teams to retain control of the infrastructure. Using CI/CD, software developers can quickly create workspaces without needing specialized data storage or understanding of the development infrastructure.
 
 == What is CI/CD?
