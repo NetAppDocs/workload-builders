@@ -10,11 +10,13 @@ summary: NetApp Workload Factory for EDA helps you optimize FSx for ONTAP usage 
 
 [.lead]
 
-Workload Factory for EDA helps you optimize FSx for ONTAP across multiple file system to boost performance and reduce operational costs through automated storage parameter management. It integrates with your existing Infrastructure as Code (IaC), ensuring consistent and reliable use by workloads.
+Workload Factory for EDA helps you optimize FSx for ONTAP across multiple file systems. You can optimize for performance and reduce operational costs by automating storage parameters, analyzing performance constraints, and get insights on EDA projects. 
 
-Workload Factory for EDA provides dashboard and storage automation frameworks and utilities that help you manage multiple FSx for ONTAP file systems. 
+It is designed to integrate with your Infrastructure as Code (IaC) frameworks.
+
+Workload Factory for EDA provides dashboards and storage automation frameworks and utilities that help you manage multiple FSx for ONTAP file systems. 
 
 It offers the following: 
 
-* link:task-configure-dashboard.html[The project dashboard]: provides a centralized view of storage consumption across your FSx for ONTAP file systems to help you plan, assess costs, and collect information on storage usage across your projects.
+* link:task-configure-dashboard.html[EDA projects dashboard]: provides a centralized view of storage consumption across your FSx for ONTAP file systems to help you plan, assess costs, and collect information on storage usage across your projects.
 * link:learn-eda-workloads.html[CI/CD]: streamlines and reduces software build time by leveraging FSx for ONTAP volume clone capabilities. 
