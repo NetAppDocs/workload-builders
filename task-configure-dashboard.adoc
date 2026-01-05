@@ -9,38 +9,43 @@ summary: Configure your EDA dashboard by adding tags to collect metrics.
 :imagesdir: ./media/
 
 [.lead]
-When you first sign in to EDA, you can use the project dashboard to observe volume usage across your FSx for ONTAP file systems.
+When you first sign in to EDA, you can use the dashboard to observe project usage across your FSx for ONTAP file systems and volumes. The dashboard includes several default filters that you can use to customize the information displayed. Additionally, you can create and apply your own AWS tags to organize and filter the data according to your specific business requirements.
 
 The dashboard helps you monitor storage usage for capacity allocated, capacity used, throughput, and IOPS. 
 
-=== Configure the dashboard
+== Setup the dashboard 
 
-To effectively use the dashboard, first configure AWS tags on your FSx for ONTAP volumes based on your business requirements. When they are configured, add them to your dashboard to begin collecting and viewing CloudWatch metrics.
+To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes based on your business requirements, for example tags that represent projects or business units. For details, see <<Configure custom filters>>.
 
 AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
+
+When they are configured, in the *Tag configuration* page provide the AWS tag key names and the labels you want to use for them in your dashboard.
+
+When these tags are applied, Workload Factory begins collecting and displaying the relevant CloudWatch metrics.
 
 Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
 
 The metrics collected include:
 
-* Total provisioned: Volume-level metric representing the StorageCapacity.
-* Total used: Volume-level metric representing the StorageUsed.
-* Average throughput: Calculated as the average of the sum of DataReadBytes and DataWriteBytes over the specified time period.
-* Average IOPS: Calculated as the average of the sum of DataReadOperations, DataWriteOperations, and MetadataOperations over the specified time period.
+* Provisioned capacity: Volume-level metric representing the provisioned storage capacity.
+* Used capacity: Volume-level metric representing the storage used.
+* Average/Maximum throughput: Calculated as the average or maximum of the sum of DataReadBytes and DataWriteBytes over the specified time period.
+* Average/Maximum IOPS: Calculated as the average or maximum of the sum of DataReadOperations, DataWriteOperations, and MetadataOperations over the specified time period.
 
-.Steps
+=== Configure custom filters
+
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
 +
 If you have not already configured your dashboard, you are automatically prompted to do so.
 . For each filter required, add a filter label name and the AWS tag key name you want to associate with it.
-. Select *Apply*.
+. Select *Apply*. 
+. To view your changes after applying any tags or filters, select the refresh icon on the dashboard. The dynamic dashboard, configured with the new filters, is displayed in your EDA projects dashboard.
 . To edit the dashboard configuration later, select *Configure*.
-. To view your changes after applying any tags or filters, select the refresh icon on the dashboard.
 
 === Filter the dashboard
 
-You can filter the information displayed on the dashboard by selecting one or all of the following:
+You can filter the information displayed on the dashboard by selecting one or all of the following default filters, as well as any custom filters you have created:
 
 * Credentials
 * Region
