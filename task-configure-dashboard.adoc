@@ -13,24 +13,24 @@ When you first sign in to EDA, you can use the dashboard to observe project usag
 
 The dashboard helps you monitor storage usage for capacity allocated, capacity used, throughput, and IOPS. 
 
+The CloudWatch metrics collected include:
+
+* Provisioned capacity: Volume-level metric representing the provisioned storage capacity.
+* Used capacity: Volume-level metric representing the storage used.
+* Average/Maximum throughput: Calculated as the average or maximum of the sum of DataReadBytes and DataWriteBytes over the specified time period.
+* Average/Maximum IOPS: Calculated as the average or maximum of the sum of DataReadOperations, DataWriteOperations, and MetadataOperations over the specified time period.
+
 == Setup the dashboard 
 
 To effectively use the dashboard, configure AWS tags on your FSx for ONTAP volumes based on your business requirements, for example tags that represent projects or business units. For details, see <<Configure custom filters>>.
 
 AWS tags are metadata for your AWS resources. They help you categorize your AWS resources in different ways, for example, by project, application, or business unit. For more details about tagging, see https://docs.aws.amazon.com/whitepapers/latest/tagging-best-practices/what-are-tags.html[What are tags?^] and  https://docs.aws.amazon.com/resourcegroupstagging/latest/APIReference/overview.html[AWS Resource Groups Tagging API Reference^].
 
-When they are configured, in the *Tag configuration* page provide the AWS tag key names and the labels you want to use for them in your dashboard.
+When they are configured, in the *Tag configuration* page provide the AWS tag key names and the corresponding labels to display in your dashboard.
 
 When these tags are applied, Workload Factory begins collecting and displaying the relevant CloudWatch metrics.
 
 Your dashboard becomes a dynamic tool for organizing, tracking costs, and filtering resources based on your organizational needs.
-
-The metrics collected include:
-
-* Provisioned capacity: Volume-level metric representing the provisioned storage capacity.
-* Used capacity: Volume-level metric representing the storage used.
-* Average/Maximum throughput: Calculated as the average or maximum of the sum of DataReadBytes and DataWriteBytes over the specified time period.
-* Average/Maximum IOPS: Calculated as the average or maximum of the sum of DataReadOperations, DataWriteOperations, and MetadataOperations over the specified time period.
 
 === Configure custom filters
 
