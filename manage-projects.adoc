@@ -4,30 +4,32 @@ permalink: manage-projects.html
 keywords: Microsoft SQL Server instance, server instance, manage host, view host, database host, database instance, manage, unmanage
 summary: Manage Microsoft SQL Server instances in Workload Factory for Databases. 
 ---
-= Manage Builders projects
+= Manage EDA projects
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-You can manage Builders projects to control how your code and artifacts are managed for each project in NetApp Workload Factory for Builders. 
+You can manage EDA projects to control how your code and artifacts are managed for each project in NetApp Workload Factory for EDA. 
 
 == Create a project
 
-You can create a new Builders project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
-
+You can create a new EDA project so that you can leverage the data protection features of your Amazon FSX for NetApp ONTAP filesystem for your code and artifacts. 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Create project*. 
+
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Create project*.  
 . On the Create project page, provide the following:
 .. *Project name*: Enter a name for the project.
 .. *Description*: Enter a description for the project.
 .. *Filesystem*: Provide the following:
-... *Credentials*: Select the Amazon AWS credentials to use. Builders uses these credentials to discover FSx for ONTAP filesystems that you can use with this project and to create clones and snapshots of projects.
+... *Credentials*: Select the Amazon AWS credentials to use. EDA uses these credentials to discover FSx for ONTAP filesystems that you can use with this project and to create clones and snapshots of projects.
 ... *Region*: Select the region that this FSx for ONTAP filesystem resides in.
 ... *FSx for ONTAP filesystem*: Select an FSx for ONTAP filesystem to use with this project.
 +
 You can only select filesystems that are configured with a link. https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html[Learn more about links^].
-... *Choose a volume*: Select a volume on which to store the project; Builders uses this volume as a software repository.
+... *Choose a volume*: Select a volume on which to store the project; EDA uses this volume as a software repository.
 +
 You can only select volumes that are configured as an NFS share.
 .. *Operation policies*: Provide limits for project clones:
@@ -47,19 +49,23 @@ For example: `User1234`
 The project is created, and appears in the list of projects on the Projects page.
 
 == View existing projects
-You can view existing projects created in NetApp Workload Factory for Builders by following these steps. 
+You can view existing projects created in NetApp Workload Factory for EDA by following these steps. 
 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Go to Projects page*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Go to Projects page*. 
 . View the existing projects listed on the Projects page.
 
 == Edit a project
 You can edit the settings of a project at any time. 
 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Go to Projects page*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to edit.
 . Make any needed changes to the project configuration.
 . Select *Save*.
@@ -68,8 +74,10 @@ You can edit the settings of a project at any time.
 A clone or snapshot of a project is known as a workspace. When you create a workspace, it is retained for as long as the project's operation policy allows. You can view existing workspaces for a project by following these steps.
 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Go to Projects page*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Go to Projects page*. 
 . On the Projects page, choose a project and select *View*.
 . View the status and details of all workspaces for this project.
 . If you see alerts or warnings for a workspace, hover over the alert or warning icon to see the reason.
@@ -78,8 +86,10 @@ A clone or snapshot of a project is known as a workspace. When you create a work
 You can delete a project when it is no longer needed by following these steps.
 
 .Steps
-. Log in to Workload Factory using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
-. In the Builders tile, select *Go to Projects page*. 
+. Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
+. Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
+. Select *CI/CD*.
+. Select *Go to Projects page*. 
 . On the Projects page, select image:icon-action.png[the option button] for the project you want to delete.
 . Select *Delete*.
 . In the confirmation dialog, select *Delete*.
