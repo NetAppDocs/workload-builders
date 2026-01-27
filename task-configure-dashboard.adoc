@@ -40,7 +40,8 @@ You can configure up to five custom filters based on your AWS tags. Each custom 
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon is used to navigate to workloads like storage, eda, ai, databases, vmware, and administration.] and then select *EDA*.
 +
 If you have not already configured your dashboard, you are automatically prompted to do so.
-. For each custom filter you want to create (up to 5), provide the following:
+. Select *+ Add filters*.
+. For each custom filter you want to create (up to five), provide the following:
 +
 * *Filter label name*: The display name that appears in the dashboard.
 * *AWS tag key name*: The AWS resource tag key that corresponds to this filter.
@@ -49,6 +50,8 @@ If you have not already configured your dashboard, you are automatically prompte
 NOTE: Filters appear on the dashboard in the order you configure them. Consider organizing your most frequently used filters first for easier access.
 
 . Select *Apply*. 
++
+You can delete a custom filter by selecting the trash icon next to that filter before applying your changes.
 . To view your changes after applying any tags or filters, select the refresh icon on the dashboard. The dynamic dashboard, configured with the new filters, is displayed in your EDA projects dashboard.
 . To edit the dashboard configuration later, select *Configure*.
 
