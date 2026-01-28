@@ -40,25 +40,26 @@ For an alert to trigger, both the latency threshold and the IOPS threshold must 
 
 . Log in using one of the link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html[console experiences^].
 . Select the menu image:workloads-menu-icon.png[The hamburger menu icon] and then select *EDA*.
-. Select *Latency*.
-. In the EDA latency configuration page, configure the following thresholds for *Warning events*:
+. From the EDA menu, select *Latency*.
+. In the EDA latency configuration page, configure the following thresholds:
 +
-* *Read latency threshold*: Enter the latency threshold in milliseconds. Default: 6 ms.
-* *Read IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
-* *Read time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
-* *Write latency threshold*: Enter the latency threshold in milliseconds. Default: 8 ms.
-* *Write IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
-* *Write time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
-
-. Configure the following thresholds for *Critical events*:
+* *Warning events*
 +
-* *Read latency threshold*: Enter the latency threshold in milliseconds. Default: 12 ms.
-* *Read IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
-* *Read time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
-* *Write latency threshold*: Enter the latency threshold in milliseconds. Default: 15 ms.
-* *Write IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
-* *Write time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
-
+** *Read latency threshold*: Enter the latency threshold in milliseconds. Default: 6 ms.
+** *Read IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
+** *Read time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
+** *Write latency threshold*: Enter the latency threshold in milliseconds. Default: 8 ms.
+** *Write IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
+** *Write time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
++
+* *Critical events*
++
+** *Read latency threshold*: Enter the latency threshold in milliseconds. Default: 12 ms.
+** *Read IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
+** *Read time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
+** *Write latency threshold*: Enter the latency threshold in milliseconds. Default: 15 ms.
+** *Write IOPS threshold*: Enter the IOPS threshold in operations per second. Default: 100 ops/sec.
+** *Write time range*: Enter the time range in minutes (5-20). Default: 10 minutes.
 . Select *Apply*.
 
 .Result
@@ -95,6 +96,12 @@ For example, with default warning thresholds, a read alert triggers only if read
 
 The latency events table displays all warning and critical events detected within the last 72 hours. Use this table to monitor volume performance and identify volumes that require optimization.
 
+.Additional information
+
+* Only the latest breach for each volume appears in the table. If a volume experiences multiple breaches, only the most recent event is displayed.
+* Events are automatically removed after 72 hours.
+* The table displays a maximum of 200 events. Older events are removed as new events are added.
+
 .Steps
 
 . In the *Latency* tab, view the latency events table.
@@ -107,19 +114,13 @@ The latency events table displays all warning and critical events detected withi
 * *Time detected*: When the breach was detected
 * *Median latency*: The median latency value during the breach period.
 
-. To sort the table, select any column header. By default, Critical events appear first sorted by time, followed by Warning events sorted by time.
+. To sort the table, select any column header. By default, critical events appear first sorted by time, followed by warning events sorted by time.
 . To dismiss one or more events, next to each event select *Dismiss*.
 . To add columns to the table, select the column icon, choose the columns, and select *Apply*.
 
-.Additional information
-
-* Only the latest breach for each volume appears in the table. If a volume experiences multiple breaches, only the most recent event is displayed.
-* Events are automatically removed after 72 hours.
-* The table displays a maximum of 200 events. Older events are removed as new events are added.
-
 == Manage latency configuration
 
-After initial configuration, you can edit your thresholds.
+After the initial configuration, you can edit your thresholds.
 
 .Steps
 
