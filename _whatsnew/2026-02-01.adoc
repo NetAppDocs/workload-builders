@@ -16,4 +16,16 @@ Interactive hover tooltips provide detailed information for each volume, includi
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-dashboard.html#view-volume-details[Learn more about viewing volume details^].
 
+=== Latency analysis for proactive performance monitoring
+
+Latency analysis enables you to monitor volume read and write latency across your FSx for ONTAP file systems. Configure customizable warning and critical event thresholds to proactively identify performance bottlenecks before they impact your EDA workloads.
+
+The feature collects CloudWatch metrics at least every 20 minutes and triggers alerts when both latency and IOPS thresholds are breached for all data points within your specified time range (5-20 minutes). You can configure 12 threshold parameters, including separate read and write latency thresholds for both warning events (default: 6ms read, 8ms write) and critical events (default: 12ms read, 15ms write).
+
+The latency events table displays all warning and critical events from the past 72 hours, showing details such as volume name, file system, time detected, and median latency during the breach period. You can sort events by any column and dismiss resolved issues. The table shows only the latest breach for each volume and automatically removes events after 72 hours.
+
+This feature requires AWS credentials and is accessible from the Latency menu in the EDA dashboard.
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html[Learn more about latency analysis^].
+
 // Use absolute links in these files

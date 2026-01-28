@@ -11,7 +11,7 @@ summary: Configure your EDA dashboard by adding tags to collect metrics. Customi
 [.lead]
 When you first sign in to EDA, you can use the dashboard to observe project usage across your FSx for ONTAP file systems and volumes. The dashboard includes several default filters that you can use to customize the information displayed. Additionally, you can create up to five custom filters based on your AWS tags, with options for single or multi-selection, to organize and filter the data according to your specific business requirements.
 
-The dashboard helps you monitor storage usage for capacity allocated, capacity used, throughput, and IOPS. 
+The dashboard helps you monitor storage usage for capacity allocated, capacity used, throughput, and IOPS. For proactive latency performance monitoring, see link:task-monitor-latency.html[Monitor volume latency]. 
 
 The CloudWatch metrics collected include:
 
